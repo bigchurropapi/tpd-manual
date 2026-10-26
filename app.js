@@ -11,6 +11,8 @@
   const TIER_LABEL = { high: 'High liability', medium: 'Know the gist', admin: 'Reference' };
 
   let DATA = null, BY_NUM = {}, ORDER = [];
+  let LAW = null, CASE_BY_ID = {}, CASES_BY_DIR = {};
+  const COURT_CLS = { scotus: 'scotus', '6th': 'cir6', ohio: 'ohio' };
   let state = { theme: null, fs: 1, stars: [], openChapters: {}, filter: null };
 
   // ---------- persistence (fails quietly in sandboxed iframes) ----------
@@ -68,6 +70,11 @@
     if (parts[0] === 'd' && parts[1]) return renderDirective(parts[1], parts[3]);
     if (parts[0] === 'search') return renderSearch(parts.slice(1).join('/'));
     if (parts[0] === 'about') return renderAbout();
+    if (parts[0] === 'law') {
+      if (parts[1] === 'c' && parts[2]) return renderLawCat(parts[2]);
+      if (parts[1]) return renderCase(parts[1]);
+      return renderLaw();
+    }
     return renderHome();
   }
   window.addEventListener('hashchange', route);
@@ -88,6 +95,11 @@
         <p>${DATA.directives.length} directives · ${DATA.edition} edition · tap a chapter to open it</p>
       </div>
       ${searchBox('')}
+      ${LAW ? h`<a class="card law-entry" href="#/law">
+        <span class="law-ico" aria-hidden="true">§</span>
+        <span class="law-text"><b>Case Law for Patrol</b><small>${LAW.cases.length} decisions in ${LAW.categories.length} topics: force, stops, searches, arrests, Miranda, and more</small></span>
+        <svg class="chev" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>` : ''}
       <div class="chips" role="tablist">
         <button class="chip ${f == null ? 'on' : ''}" data-filter="">All</button>
         <button class="chip ${f === 'high' ? 'on' : ''}" data-filter="high"><span class="dot" style="color:var(--high)"></span>High liability</button>
@@ -146,7 +158,7 @@
   function searchBox(q) {
     return h`<form class="search-wrap" id="search-form" role="search">
       <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M20 20l-3.5-3.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
-      <input class="search-input" id="q" type="search" placeholder="Search the manual…" value="${esc(q)}" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" enterkeyhint="search" aria-label="Search the manual">
+      <input class="search-input" id="q" type="search" placeholder="Search the manual and case law…" value="${esc(q)}" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" enterkeyhint="search" aria-label="Search the manual">
       <button class="search-clear" type="button" id="q-clear" aria-label="Clear" ${q ? '' : 'hidden'}>✕</button>
     </form>`;
   }
@@ -200,10 +212,25 @@
       }
       if (score) groups.push({ d, blocks: blocks.sort((a, b) => b.s - a.s).slice(0, 4), score, titleMatch });
     }
+    // case law
+    const caseHits = [];
+    if (LAW) for (const c of LAW.cases) {
+      const nm = c.name.toLowerCase(); const body = (c.cite + ' ' + c.tags.join(' ') + ' ' + c.facts + ' ' + c.held + ' ' + c.forUs + ' ' + c.notes.join(' ')).toLowerCase();
+      let sc = 0;
+      if (nm.includes(phrase)) sc = 100; else if (toks.every(t => nm.includes(t))) sc = 60;
+      else if (body.includes(phrase)) sc = 20; else if (toks.length > 1 && toks.every(t => body.includes(t))) sc = 8;
+      if (sc) caseHits.push({ c, sc });
+    }
+    caseHits.sort((a, b) => b.sc - a.sc);
     groups.sort((a, b) => b.score - a.score);
+    if (!groups.length && caseHits.length) {
+      box.innerHTML = h`<p class="results-meta">${caseHits.length} case${caseHits.length === 1 ? '' : 's'}</p>` + caseGroupHtml(caseHits, toks);
+      return;
+    }
     if (!groups.length) { box.innerHTML = h`<div class="empty">No matches for “${esc(q)}”.<br><span class="small">Try fewer or different words.</span></div>`; return; }
     const total = groups.reduce((n, g) => n + (g.d ? Math.max(1, g.blocks.length) : g.titleHits.length), 0);
-    let html = h`<p class="results-meta">${groups.filter(g => g.d).length} directive${groups.length === 1 ? '' : 's'} · ${total} place${total === 1 ? '' : 's'}</p>`;
+    let html = h`<p class="results-meta">${groups.filter(g => g.d).length} directive${groups.length === 1 ? '' : 's'} · ${total} place${total === 1 ? '' : 's'}${caseHits.length ? ' · ' + caseHits.length + ' case' + (caseHits.length === 1 ? '' : 's') : ''}</p>`;
+    if (caseHits.length && caseHits[0].sc >= 60) { html += caseGroupHtml(caseHits.slice(0, 6), toks); caseHits.splice(0, 6); }
     for (const g of groups.slice(0, 40)) {
       if (!g.d) { html += h`<div class="card res-group">${g.titleHits.map(rowHtml).join('')}</div>`; continue; }
       const d = g.d;
@@ -216,7 +243,11 @@
       </div>`;
     }
     if (groups.length > 40) html += h`<p class="results-meta">Showing the top 40 directives. Narrow the search to see more.</p>`;
+    if (caseHits.length) html += h`<p class="results-meta">Case law</p>` + caseGroupHtml(caseHits.slice(0, 12), toks);
     box.innerHTML = html;
+  }
+  function caseGroupHtml(hits, toks) {
+    return h`<div class="card res-group">${hits.map(({ c }) => caseRowHtml(c, toks)).join('')}</div>`;
   }
   function firstPara(d) { const b = d.blocks.find(x => x.type === 'para'); return b ? b.text.slice(0, 220) : ''; }
   function hl(text, toks) {
@@ -278,6 +309,9 @@
     }
     if (secOpen) html += '</section>';
     html += '</article>';
+
+    const rel = CASES_BY_DIR[d.num] || [];
+    if (rel.length) html += h`<section class="card law-related"><h2>Case law behind this directive</h2>${rel.map(c => caseRowHtml(c)).join('')}<a class="more" href="#/law">All case law ›</a></section>`;
 
     html += h`<div class="pn">
       ${prev ? h`<a class="card prev" href="#/d/${prev.num}"><small>‹ Previous</small><span>${prev.num} ${esc(prev.title)}</span></a>` : '<span></span>'}
@@ -347,6 +381,100 @@
   }
 
   // ---------- About ----------
+
+  // ---------- Case law ----------
+  function courtBadge(c) { return h`<span class="badge court ${COURT_CLS[c.court]}">${esc(LAW.courts[c.court])}</span>`; }
+  function caseFlags(c) {
+    let s = '';
+    if (c.tags.includes('Ohio differs')) s += '<span class="badge ohio-differs">Ohio rule differs</span>';
+    if (c.tags.includes('recent')) s += '<span class="badge updated">New</span>';
+    return s;
+  }
+  function caseRowHtml(c, toks) {
+    const cat = LAW.categories.find(k => k.id === c.cat);
+    return h`<a class="row case-row" href="#/law/${c.id}">
+      <span class="flag court-${COURT_CLS[c.court]}" title="${esc(LAW.courts[c.court])}"></span>
+      <span class="rtitle"><span class="case-name">${toks ? hl(c.name, toks) : esc(c.name)}</span><small>${esc(String(c.year))} · ${esc(LAW.courts[c.court])}${cat ? ' · ' + esc(cat.name) : ''}${c.tags.includes('Ohio differs') ? ' · <b class="od">Ohio differs</b>' : ''}</small></span>
+      <svg class="chev" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>`;
+  }
+  function renderLaw() {
+    if (!LAW) { location.hash = '#/'; return; }
+    setChrome({ back: true, sub: 'Case law' });
+    const ohio = LAW.cases.filter(c => c.court === 'ohio').length;
+    const recent = LAW.cases.filter(c => c.tags.includes('recent')).sort((a, b) => b.year - a.year);
+    let html = h`<div class="hero law-hero">
+        <h1>Case Law for Patrol</h1>
+        <p>${LAW.cases.length} decisions that shape what you can and can't do on a shift, in plain language. ${ohio} are Ohio or Sixth Circuit rulings that apply directly here.</p>
+      </div>
+      ${searchBox('')}
+      <div class="card">`;
+    for (const k of LAW.categories) {
+      const n = LAW.cases.filter(c => c.cat === k.id).length;
+      html += h`<a class="row cat-row" href="#/law/c/${k.id}">
+        <span class="rtitle"><b>${esc(k.name)}</b><small>${esc(k.blurb)}</small></span>
+        <span class="count">${n}</span>
+        <svg class="chev" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>`;
+    }
+    html += '</div>';
+    if (recent.length) html += h`<section class="part"><div class="part-title"><h2>Recent decisions</h2></div><div class="card">${recent.map(c => caseRowHtml(c)).join('')}</div></section>`;
+    html += h`<section class="part"><div class="part-title"><h2>How to read these</h2></div>
+      <div class="card about">
+        <div class="legend">
+          <div><span class="flag court-scotus"></span><span><b>U.S. Supreme Court.</b> Binding everywhere. Sets the floor.</span></div>
+          <div><span class="flag court-cir6"></span><span><b>Sixth Circuit.</b> Federal appeals court for Ohio. Binding on federal civil suits against you.</span></div>
+          <div><span class="flag court-ohio"></span><span><b>Ohio.</b> Ohio Supreme Court decisions and statutes. Control suppression in Ohio courts, and sometimes give more protection than the federal rule.</span></div>
+        </div>
+        <p>Each case gives you the <b>circumstances</b> (what actually happened), the <b>decision</b> (what the court held), and <b>for us on the street</b> (what it means on a Toledo shift). Entries tagged <span class="badge ohio-differs">Ohio rule differs</span> are places where following only the federal rule will get evidence suppressed here.</p>
+        <p class="muted small">${esc(LAW.disclaimer)}</p>
+      </div></section>`;
+    view.innerHTML = html;
+    bindSearchBox();
+  }
+  function renderLawCat(catId) {
+    const k = LAW && LAW.categories.find(x => x.id === catId);
+    if (!k) { location.hash = '#/law'; return; }
+    setChrome({ back: true, sub: 'Case law' });
+    const list = LAW.cases.filter(c => c.cat === k.id);
+    let html = h`<div class="card d-head">
+      <div class="d-crumb"><a href="#/law">Case law</a><span class="sep">›</span><span>${esc(k.name)}</span></div>
+      <div class="d-title"><h1>${esc(k.name)}</h1></div>
+      <p class="muted" style="margin:0">${esc(k.blurb)}</p>
+    </div>
+    <div class="card">${list.map(c => caseRowHtml(c)).join('')}</div>
+    <p class="footer-note">${list.length} entr${list.length === 1 ? 'y' : 'ies'}. Order is roughly foundational first, then by topic. <a href="#/law">All topics</a></p>`;
+    view.innerHTML = html;
+  }
+  function renderCase(id) {
+    const c = CASE_BY_ID[id];
+    if (!c) { view.innerHTML = h`<div class="empty">No case with that id.<br><a href="#/law">Back to case law</a></div>`; setChrome({ back: true }); return; }
+    const k = LAW.categories.find(x => x.id === c.cat);
+    setChrome({ back: true, sub: k ? k.name : 'Case law' });
+    const list = LAW.cases.filter(x => x.cat === c.cat); const i = list.indexOf(c); const prev = list[i - 1], next = list[i + 1];
+    const rel = c.related.map(n => BY_NUM[n]).filter(Boolean);
+    let html = h`<div class="card d-head">
+      <div class="d-crumb"><a href="#/law">Case law</a><span class="sep">›</span><a href="#/law/c/${c.cat}">${esc(k ? k.name : '')}</a></div>
+      <div class="d-title"><h1 class="case-title">${esc(c.name)}</h1></div>
+      <div class="d-meta">${courtBadge(c)}${caseFlags(c)}</div>
+      <div class="d-meta"><span class="cite">${esc(c.cite)}${/\(\d{4}\)/.test(c.cite) ? '' : ' (' + c.year + ')'}</span></div>
+      ${c.tags.filter(t => t !== 'recent' && t !== 'Ohio differs').length ? h`<div class="tags">${c.tags.filter(t => t !== 'recent' && t !== 'Ohio differs').map(t => h`<span class="tag">${esc(t)}</span>`).join('')}</div>` : ''}
+    </div>
+    <article class="card case-body">
+      <section><h2>Circumstances</h2><p>${esc(c.facts)}</p></section>
+      <section><h2>Decision</h2><p>${esc(c.held)}</p></section>
+      <section class="forus"><h2>For us on the street</h2><p>${esc(c.forUs)}</p></section>
+      ${c.notes.length ? h`<section><h2>Notes</h2><ul>${c.notes.map(n => h`<li>${esc(n)}</li>`).join('')}</ul></section>` : ''}
+    </article>`;
+    if (rel.length) html += h`<section class="card law-related"><h2>Related directives</h2>${rel.map(rowHtml).join('')}</section>`;
+    html += h`<div class="pn">
+      ${prev ? h`<a class="card prev" href="#/law/${prev.id}"><small>‹ Previous</small><span>${esc(prev.name)}</span></a>` : '<span></span>'}
+      ${next ? h`<a class="card next" href="#/law/${next.id}"><small>Next ›</small><span>${esc(next.name)}</span></a>` : ''}
+    </div>
+    <p class="footer-note">${esc(LAW.disclaimer)}</p>`;
+    view.innerHTML = html;
+  }
+
   function renderAbout() {
     setChrome({ back: true, sub: 'About' });
     const takes = DATA.directives.filter(d => d.take).length;
@@ -354,6 +482,7 @@
       <h1 class="d-title" style="font-family:var(--font-display);font-size:var(--text-xl);margin:0 0 var(--space-3)">About this reference</h1>
       <p>This is the Toledo Police Department manual (Standard Operating Guidelines, ${DATA.edition} edition) reorganized for reading on a phone. Every directive is here in full, split into its original sections and numbered paragraphs, with the department's own emphasized rules highlighted.</p>
       <p>${takes} directives also have a <b>Quick Take</b>: a plain-language summary with the must and must-not rules pulled out and section references pointing back to the controlling text. More are added over time.</p>
+      <p>The <a href="#/law">Case Law</a> section collects the court decisions behind the directives: use of force, stops, searches, arrests, Miranda, and the places where Ohio law is stricter than the federal rule. Each entry gives the circumstances, the decision, and what it means on the street, with links back to the directives it touches.</p>
       <h2>Flags</h2>
       <div class="legend">
         <div><span class="flag high"></span><span><b>High liability.</b> Split-second or lawsuit-prone policies. Know these cold.</span></div>
@@ -368,8 +497,11 @@
   }
 
   // ---------- boot ----------
-  fetch('data.json').then(r => r.json()).then(data => {
+  const lawLoad = fetch('cases.json').then(r => r.ok ? r.json() : null).catch(() => null);
+  fetch('data.json').then(r => r.json()).then(async data => {
     DATA = data;
+    LAW = await lawLoad;
+    if (LAW) LAW.cases.forEach(c => { CASE_BY_ID[c.id] = c; c.related.forEach(n => { (CASES_BY_DIR[n] = CASES_BY_DIR[n] || []).push(c); }); });
     DATA.directives.sort((a, b) => numSort(a.num, b.num));
     DATA.directives.forEach(d => { BY_NUM[d.num] = d; });
     ORDER = DATA.directives.map(d => d.num);

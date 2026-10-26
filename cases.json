@@ -1,0 +1,2308 @@
+{
+"categories": [
+{
+"id": "force",
+"name": "Use of Force",
+"blurb": "Objective reasonableness, deadly force, pursuits that end in force, and the duty to intervene."
+},
+{
+"id": "stops",
+"name": "Stops, Frisks & Detentions",
+"blurb": "When a contact becomes a seizure, what reasonable suspicion looks like, and how far a Terry stop can go."
+},
+{
+"id": "search",
+"name": "Searches: Vehicles, Homes & Phones",
+"blurb": "Warrant exceptions, consent, vehicles, home entry, inventory, and digital evidence."
+},
+{
+"id": "arrest",
+"name": "Arrests & Probable Cause",
+"blurb": "What probable cause requires, when a custodial arrest is allowed, and Ohio's minor-misdemeanor limits."
+},
+{
+"id": "interrogation",
+"name": "Miranda & Interrogation",
+"blurb": "Custody, interrogation, invocation, waiver, and the places Ohio goes further than the federal rule."
+},
+{
+"id": "evidence",
+"name": "Exclusionary Rule, Evidence & ID",
+"blurb": "When evidence gets thrown out, when it survives, Brady obligations, and eyewitness identification."
+},
+{
+"id": "dv",
+"name": "Domestic Violence, Victims & Statements",
+"blurb": "What victims' statements can be used for, protection orders, and the limits of police liability for failing to protect."
+},
+{
+"id": "special",
+"name": "Juveniles, Schools & Mental Health",
+"blurb": "Rules that shift when the person is a minor, on school grounds, or in crisis."
+},
+{
+"id": "speech",
+"name": "First Amendment, Recording & the Public",
+"blurb": "Verbal abuse, protests, people filming you, and where the line is for disorderly conduct and obstruction."
+},
+{
+"id": "liability",
+"name": "Liability, Immunity & Officer Rights",
+"blurb": "How you and the city get sued, what qualified immunity does and doesn't cover, and your rights in internal investigations."
+}
+],
+"cases": [
+{
+"id": "graham",
+"name": "Graham v. Connor",
+"cite": "490 U.S. 386",
+"year": 1989,
+"court": "scotus",
+"tags": [
+"foundational"
+],
+"facts": "Dethorne Graham, a diabetic, had a friend drive him to a store for orange juice to head off an insulin reaction. He went in, saw a long line, and hurried back out. An officer thought that looked like a robbery, stopped the car, and held Graham while he checked the store. Graham passed out, was cuffed, was thrown against the hood and into the car, and came away with a broken foot, cuts, and a bruised forehead. The store check cleared him and he was released.",
+"held": "All claims that police used excessive force during an arrest, investigatory stop, or other seizure are judged under the Fourth Amendment's objective reasonableness standard, not under substantive due process and not by asking whether the officer acted in good faith or maliciously. Reasonableness is judged from the perspective of a reasonable officer on the scene, allowing for split-second decisions, and looks at (1) the severity of the crime, (2) whether the suspect posed an immediate threat to officers or others, and (3) whether the suspect was actively resisting or trying to flee.",
+"forUs": "This is the test every force review runs on, including the department's own. Your intent doesn't save you and your bad attitude doesn't sink you; what matters is whether the facts you knew, at that moment, justified what you did. Write reports around the three Graham factors: what the offense was, what the threat was and why, and exactly how the person resisted or fled. Spell out the facts that made the threat real (hands, movements, statements, size, weapons, prior knowledge).",
+"notes": [
+"Hindsight is excluded, but see Barnes v. Felix: everything leading up to the force counts, not just the final second.",
+"Severity of the crime cuts both ways: force that is fine on a felony suspect may not be fine on a jaywalker."
+],
+"related": [
+"103.2",
+"401.21"
+],
+"cat": "force"
+},
+{
+"id": "garner",
+"name": "Tennessee v. Garner",
+"cite": "471 U.S. 1",
+"year": 1985,
+"court": "scotus",
+"tags": [
+"foundational",
+"deadly force"
+],
+"facts": "Memphis officers answered a nighttime prowler call and saw 15-year-old Edward Garner run across a backyard and stop at a six-foot chain-link fence. The officer could see he was unarmed and slight. When Garner started to climb the fence, the officer shot him in the back of the head to stop the escape, as Tennessee's fleeing-felon statute allowed. Garner had $10 and a purse from the house.",
+"held": "Deadly force to stop a fleeing suspect is a seizure and is unreasonable unless the officer has probable cause to believe the suspect poses a significant threat of death or serious physical injury to the officer or others. Where feasible, some warning should be given first. The common-law rule allowing deadly force on any fleeing felon is unconstitutional.",
+"forUs": "Flight alone never justifies deadly force. You need probable cause of a serious threat: a weapon, a violent crime just committed, or a real reason to believe this person will seriously hurt someone if he gets away. Give a warning when you can. 103.2 builds its deadly-force rule directly on Garner.",
+"notes": [
+"Garner is not a 'fleeing-felon' checklist; the question is still Graham reasonableness, with Garner supplying the threat requirement."
+],
+"related": [
+"103.2"
+],
+"cat": "force"
+},
+{
+"id": "scott",
+"name": "Scott v. Harris",
+"cite": "550 U.S. 372",
+"year": 2007,
+"court": "scotus",
+"tags": [
+"pursuit",
+"deadly force"
+],
+"facts": "Victor Harris was clocked at 73 in a 55 and refused to stop, leading Georgia deputies on a six-minute, ten-mile chase at speeds over 85 mph, running red lights and crossing the center line. Deputy Scott got permission for a PIT, then instead rammed Harris's bumper. Harris crashed and was left a quadriplegic. Dashcam video captured all of it.",
+"held": "An officer's attempt to end a dangerous high-speed chase that threatens innocent bystanders does not violate the Fourth Amendment, even when it places the fleeing motorist at risk of serious injury or death. The Court refused to adopt a rule that police must abandon pursuits, and held that courts cannot accept a plaintiff's version of events when clear video flatly contradicts it.",
+"forUs": "Ramming or PIT at speed is deadly force and is judged under Graham, but a driver who is endangering the public can be stopped with force that risks his life. The flip side: your video will be believed over everyone's memory, including yours, so narrate on camera and assume it will be played in court. Department pursuit policy (401.1) is stricter than the Constitution; follow it.",
+"notes": [
+"Pair with Plumhoff v. Rickard (shooting at a fleeing car) and County of Sacramento v. Lewis (due-process standard when no seizure occurs)."
+],
+"related": [
+"401.1",
+"303.1",
+"103.2"
+],
+"cat": "force"
+},
+{
+"id": "plumhoff",
+"name": "Plumhoff v. Rickard",
+"cite": "572 U.S. 765",
+"year": 2014,
+"court": "scotus",
+"tags": [
+"pursuit",
+"deadly force"
+],
+"facts": "Donald Rickard fled a traffic stop in Arkansas for a broken headlight and led officers on a chase over 100 mph into Memphis. He spun out, was boxed in, then kept spinning his tires and pushing against a cruiser to escape. Officers fired 15 rounds; Rickard and his passenger were killed.",
+"held": "Officers acted reasonably in using deadly force to end a chase that posed a grave public-safety risk, and the number of shots was not excessive because officers may keep shooting until the threat has ended. Even if there were a violation, it was not clearly established.",
+"forUs": "If deadly force is justified, you are not limited to a set number of rounds, but you must stop when the threat stops. Articulate why the threat continued (he kept trying to drive, the car was still moving, he reached again). The presence of a passenger did not change the analysis for the driver's threat, but it matters for your tactics.",
+"related": [
+"401.1",
+"103.2"
+],
+"cat": "force",
+"notes": []
+},
+{
+"id": "barnes",
+"name": "Barnes v. Felix",
+"cite": "605 U.S. 73",
+"year": 2025,
+"court": "scotus",
+"tags": [
+"deadly force",
+"recent"
+],
+"facts": "Officer Felix stopped Ashtian Barnes in Texas for toll violations tied to the rental car's plate. Barnes was told to get out; instead the car started moving. Felix jumped onto the door sill, and within about two seconds fired two shots into the car, killing Barnes. The Fifth Circuit looked only at the two seconds Felix was on the sill (the 'moment of threat' rule) and found the shooting reasonable.",
+"held": "Unanimously rejected the moment-of-threat rule. Excessive-force claims are judged under the totality of the circumstances, which has no time limit; events leading up to the shooting, including the officer's own choices, can be relevant to whether the force was reasonable.",
+"forUs": "Everything before the trigger pull is now squarely in the review: the approach, where you positioned yourself, whether you created the danger. Jumping onto a moving car and then shooting because you are on a moving car is the fact pattern the Court flagged. 103.2 already tells you not to shoot at moving vehicles unless deadly force is otherwise justified; this case is why. Decision-making and tactics are part of the reasonableness picture now, not just the final second.",
+"notes": [
+"The Court did not decide whether Felix's conduct was unreasonable; it sent the case back to be analyzed under the full timeline.",
+"Kavanaugh's concurrence discusses how dangerous moving-vehicle stops are and that officers face no-good-options situations; expect defense lawyers to cite the majority and your lawyers to cite the concurrence."
+],
+"related": [
+"103.2",
+"401.1"
+],
+"cat": "force"
+},
+{
+"id": "kingsley",
+"name": "Kingsley v. Hendrickson",
+"cite": "576 U.S. 389",
+"year": 2015,
+"court": "scotus",
+"tags": [
+"jail",
+"pretrial detainee"
+],
+"facts": "Michael Kingsley, a pretrial detainee in a Wisconsin jail, refused to take a piece of paper off a light fixture. Officers removed him from the cell, he was handcuffed, and during the move an officer put a knee in his back and another used a Taser on him for about five seconds while he was cuffed.",
+"held": "A pretrial detainee's excessive-force claim is judged by an objective standard: the force must be objectively unreasonable from the perspective of a reasonable officer on the scene, considering the legitimate interests of managing the facility. The detainee does not have to prove the officer subjectively intended to punish.",
+"forUs": "In the holding area, the booking line, and the detention room, the standard is objective reasonableness, same as the street, adjusted for the legitimate needs of running the facility. Force on a cuffed, non-resisting person is the fact pattern that loses. Applies to prisoners in your custody before conviction, which is nearly everyone you deal with.",
+"related": [
+"306.1",
+"402.5",
+"103.2"
+],
+"cat": "force",
+"notes": []
+},
+{
+"id": "mendez",
+"name": "County of Los Angeles v. Mendez",
+"cite": "581 U.S. 420",
+"year": 2017,
+"court": "scotus",
+"tags": [
+"deadly force",
+"entry"
+],
+"facts": "Deputies searching for a parolee entered a backyard shack without a warrant and without knocking. Angel Mendez, who lived there with his pregnant girlfriend, was napping and picked up a BB gun he kept for rats. Deputies saw the gun and fired 15 rounds, badly wounding both. The Ninth Circuit held the shooting reasonable but imposed liability under a 'provocation rule' because the unlawful entry provoked the confrontation.",
+"held": "Rejected the Ninth Circuit's provocation rule. The reasonableness of the shooting is judged on its own under Graham; a separate earlier constitutional violation (the illegal entry) cannot convert a reasonable use of force into an unreasonable one. But the earlier violation can still support liability on its own if it proximately caused the injuries.",
+"forUs": "Two separate questions: was the entry lawful, and was the shooting reasonable? A bad entry doesn't make a reasonable shooting unlawful, but you can still be liable for the bad entry and whatever flowed from it. Read with Barnes: pre-shooting conduct is part of the totality, so the entry facts still come in.",
+"related": [
+"402.2",
+"103.2"
+],
+"cat": "force",
+"notes": []
+},
+{
+"id": "kisela",
+"name": "Kisela v. Hughes",
+"cite": "584 U.S. 100",
+"year": 2018,
+"court": "scotus",
+"tags": [
+"deadly force",
+"qualified immunity",
+"edged weapon"
+],
+"facts": "Tucson officers responded to a report of a woman hacking at a tree with a knife. Amy Hughes came out of her house holding a kitchen knife and walked to within about six feet of her roommate, who was standing in the driveway. Officers told her twice to drop the knife; she didn't. Within about a minute of arriving, Officer Kisela shot her four times through a chain-link fence. The roommate later said she did not feel threatened.",
+"held": "Kisela was entitled to qualified immunity: even if the shooting was unreasonable, no clearly established law put him on notice that shooting a woman with a knife within striking distance of another person after ignoring commands was unlawful.",
+"forUs": "A knife within reach of another person, after commands, is a scenario courts treat as a serious threat. But 'qualified immunity' is not 'this was right'; the Court didn't say the shooting was reasonable. Distance, the third party's reaction, time on scene, and what alternatives existed are what plaintiffs' lawyers (and your own review board) will press. Create distance and time when you can, and narrate the commands.",
+"related": [
+"103.2",
+"401.9"
+],
+"cat": "force",
+"notes": []
+},
+{
+"id": "lombardo",
+"name": "Lombardo v. City of St. Louis",
+"cite": "594 U.S. 464",
+"year": 2021,
+"court": "scotus",
+"tags": [
+"positional asphyxia",
+"prone restraint"
+],
+"facts": "Nicholas Gilbert, arrested for trespass and a traffic ticket, tried to hang himself in a holding cell. Officers cuffed him and shackled his legs, then held him face-down on the floor for about 15 minutes while he struggled and said he couldn't breathe, with officers pressing on his back and torso. He stopped moving and died.",
+"held": "The Eighth Circuit erred by treating a struggling, restrained prisoner as a per se ongoing threat. Courts must consider all the Graham facts, including that he was handcuffed and shackled, the duration of the prone restraint, and the department's own guidance that prone restraint with pressure on the back can cause asphyxia.",
+"forUs": "Once someone is cuffed and shackled, 15 minutes of weight on his back is a known killer, and his struggling may be him trying to breathe. Get him on his side or seated as soon as he's secured, keep weight off the torso, monitor breathing, and say so on body cam. Your own training materials on positional asphyxia will be Exhibit A.",
+"related": [
+"103.2",
+"402.5",
+"306.1"
+],
+"cat": "force",
+"notes": []
+},
+{
+"id": "lewis",
+"name": "County of Sacramento v. Lewis",
+"cite": "523 U.S. 833",
+"year": 1998,
+"court": "scotus",
+"tags": [
+"pursuit"
+],
+"facts": "A deputy chased a motorcycle with a passenger at speeds up to 100 mph through residential streets for about 75 seconds. The motorcycle tipped, and the deputy's cruiser, unable to stop in time, hit and killed 16-year-old passenger Philip Lewis.",
+"held": "A high-speed chase with no intent to physically harm the suspect or to cause the crash does not violate substantive due process, even if the officer was deliberately or recklessly indifferent to the risk. Only conduct that 'shocks the conscience' (purpose to cause harm unrelated to a legitimate law-enforcement objective) supports liability for pursuit injuries where no Fourth Amendment seizure occurred.",
+"forUs": "Federally, a crash during a pursuit rarely creates constitutional liability. State law and department policy are where the real exposure is: Ohio wrongful-death and negligence suits, R.C. 2744 immunity fights over 'wanton or reckless' driving, and 401.1 discipline. Follow the pursuit policy; it is stricter than the Constitution for good reason.",
+"related": [
+"401.1",
+"303.1"
+],
+"cat": "force",
+"notes": []
+},
+{
+"id": "brower",
+"name": "Brower v. County of Inyo",
+"cite": "489 U.S. 593",
+"year": 1989,
+"court": "scotus",
+"tags": [
+"pursuit",
+"roadblock",
+"seizure"
+],
+"facts": "William Brower fled in a stolen car for about 20 miles. Officers set up a roadblock using an 18-wheeler across both lanes behind a curve, unlit, with a police car's headlights pointed at the oncoming driver to blind him. Brower hit the truck and died.",
+"held": "A seizure occurs when a person's movement is stopped through means intentionally applied by the government. A roadblock designed to stop a fleeing car is a seizure of the driver, and its reasonableness is reviewed under the Fourth Amendment.",
+"forUs": "Roadblocks, stop sticks, boxing in, and PIT are all seizures. They are judged for reasonableness, which means how you set them up (lighting, visibility, escape route, warning) matters. A roadblock designed so the driver cannot avoid it is deadly force.",
+"related": [
+"401.1"
+],
+"cat": "force",
+"notes": []
+},
+{
+"id": "torres",
+"name": "Torres v. Madrid",
+"cite": "592 U.S. 306",
+"year": 2021,
+"court": "scotus",
+"tags": [
+"seizure",
+"deadly force"
+],
+"facts": "New Mexico officers approached Roxanne Torres in a parking lot to serve an unrelated warrant. She was coming down from meth, thought they were carjackers, and drove off. Officers fired 13 rounds, hitting her twice. She kept driving, stole another car, drove 75 miles, and was arrested the next day at a hospital.",
+"held": "The application of physical force to the body of a person with intent to restrain is a seizure, even if the person does not submit and gets away. Shooting someone who then escapes is still a Fourth Amendment seizure.",
+"forUs": "Every round that hits someone is a seizure you'll have to justify, whether or not they stopped. 'She got away so there was no seizure' is not a defense. Also a cautionary tale about shooting at a moving car when you are not in its path.",
+"related": [
+"103.2",
+"401.1"
+],
+"cat": "force",
+"notes": []
+},
+{
+"id": "champion",
+"name": "Champion v. Outlook Nashville",
+"cite": "380 F.3d 893 (6th Cir.)",
+"year": 2004,
+"court": "6th",
+"tags": [
+"prone restraint",
+"OC",
+"mental health"
+],
+"facts": "Officers responded to a severely autistic man, Robert Champion, who was non-verbal and acting out. After he was handcuffed and his legs restrained, officers lay on top of him and sprayed him with pepper spray while he was face down. He stopped breathing and died.",
+"held": "It is clearly established in the Sixth Circuit that putting substantial or significant pressure on a suspect's back when he is already restrained and poses no danger, and using pepper spray on a subdued, restrained suspect, is excessive force. The court also said a person's diminished capacity (mental illness or disability) is a factor in the Graham analysis.",
+"forUs": "Binding law in Ohio. Once a person is restrained and not a threat, weight on the back and OC are off the table, and 'he kept struggling' is not enough by itself. Signs of mental illness or developmental disability reduce the force the court will accept and require you to adjust tactics. Ties directly to 401.9 and the positional-asphyxia language in 103.2.",
+"related": [
+"103.2",
+"401.9",
+"402.5"
+],
+"cat": "force",
+"notes": []
+},
+{
+"id": "baker",
+"name": "Baker v. City of Hamilton",
+"cite": "471 F.3d 601 (6th Cir.)",
+"year": 2006,
+"court": "6th",
+"tags": [
+"baton",
+"surrender"
+],
+"facts": "An officer struck a juvenile in the head with a baton after the juvenile had stopped running and put his hands up, then struck his knee. In a related incident the officer struck an adult who had surrendered.",
+"held": "Striking a suspect who has surrendered or is not resisting is excessive force, and head strikes with an impact weapon on a non-resisting person are clearly established as unlawful in the Sixth Circuit.",
+"forUs": "Force stops when resistance stops. One extra strike after the person gives up is the strike that gets you sued and indicted. Baton strikes to the head are treated as deadly force under 103.2 anyway.",
+"related": [
+"103.2"
+],
+"cat": "force",
+"notes": []
+},
+{
+"id": "hagans",
+"name": "Hagans v. Franklin County Sheriff's Office",
+"cite": "695 F.3d 505 (6th Cir.)",
+"year": 2012,
+"court": "6th",
+"tags": [
+"TASER",
+"excited delirium"
+],
+"facts": "Deputies responded to a man, Douglas Hagans, who was high on cocaine, hallucinating, and fighting off family members. He actively resisted handcuffing, and a deputy applied the Taser in drive-stun mode repeatedly over about two minutes until he was cuffed. Hagans went into cardiac arrest and died.",
+"held": "Using a Taser on a suspect who is actively resisting arrest, even repeatedly, was not clearly established as excessive force at the time (2007). The court contrasted this with Taser use on a person who is already subdued or only passively resisting, which Sixth Circuit cases treat as excessive.",
+"forUs": "The dividing line the Sixth Circuit uses: active resistance (fighting, pulling away, refusing to give hands while physically struggling) versus passive non-compliance or already restrained. Taser on active resistance is generally defensible; Taser on someone cuffed, or who is merely not moving fast enough, is not. 401.21 sets the department's tighter limits (number of cycles, prohibited targets, medical response).",
+"notes": [
+"Later Sixth Circuit cases: Taser on a person who is handcuffed, compliant, or merely verbally argumentative is excessive and clearly established (e.g., Kijowski v. City of Niles, 2010; Goodwin v. City of Painesville, 2015)."
+],
+"related": [
+"401.21",
+"103.2",
+"401.9"
+],
+"cat": "force"
+},
+{
+"id": "turner",
+"name": "Turner v. Scott",
+"cite": "119 F.3d 425 (6th Cir.)",
+"year": 1997,
+"court": "6th",
+"tags": [
+"duty to intervene"
+],
+"facts": "A Michigan officer struck an arrestee on the ground. A second officer arrived moments before the strike and was sued for failing to stop it.",
+"held": "An officer can be liable for another officer's excessive force when he (1) observed or had reason to know that excessive force would be or was being used, and (2) had both the opportunity and the means to prevent the harm. A single, quick blow with no warning does not give a realistic opportunity to intervene.",
+"forUs": "If you see a partner cross the line and you have time to stop it, you own it too. Sixth Circuit cases generally find no realistic opportunity when the force lasts under about ten seconds, but prolonged strikes, chokeholds, or repeated Taser cycles give you time. Step in, say it on camera, and report it. 103.2 makes intervention a duty, not an option.",
+"related": [
+"103.2",
+"103.1"
+],
+"cat": "force",
+"notes": []
+},
+{
+"id": "zorn",
+"name": "Zorn v. Linton",
+"cite": "608 U.S. ___ (per curiam)",
+"year": 2026,
+"court": "scotus",
+"tags": [
+"qualified immunity",
+"recent",
+"protest"
+],
+"facts": "During a protest, a sergeant gave a verbal warning and then used a routine wristlock to move a protester. The Second Circuit denied qualified immunity.",
+"held": "Reversed. The Second Circuit failed to identify any case holding that an officer using a routine wristlock on a protester after a verbal warning, without more, violated the Constitution, so the sergeant was entitled to qualified immunity.",
+"forUs": "Low-level control holds after a warning on a non-compliant person remain squarely within what courts accept. The practical lesson is the sequence: warning, then the least force that works, on camera. Keep this in the context of the Court's steady message that qualified immunity requires a prior case with closely similar facts.",
+"related": [
+"103.2",
+"401.7"
+],
+"cat": "force",
+"notes": []
+},
+{
+"id": "terry",
+"name": "Terry v. Ohio",
+"cite": "392 U.S. 1",
+"year": 1968,
+"court": "scotus",
+"tags": [
+"foundational",
+"frisk",
+"Ohio case"
+],
+"facts": "Cleveland detective Martin McFadden, 39 years on the job, watched John Terry and Richard Chilton take turns walking past a store window on Euclid Avenue, peering in, and conferring, about a dozen times, then meet a third man. McFadden suspected they were casing the store for a stickup. He approached, identified himself, asked their names, got a mumble, spun Terry around, and patted down his overcoat. He felt a pistol, and found another on Chilton.",
+"held": "An officer may briefly detain a person when he has reasonable, articulable suspicion that criminal activity is afoot, and may conduct a limited pat-down of outer clothing for weapons when he reasonably believes the person is armed and dangerous. Both the stop and the frisk are seizures and searches under the Fourth Amendment, judged for reasonableness.",
+"forUs": "Two separate justifications: reasonable suspicion of crime gets you the stop; reasonable belief the person is armed and dangerous gets you the frisk. One does not automatically give you the other. The frisk is for weapons only, outer clothing only. Write the specific facts: what you saw, how long, what your experience told you, why you thought weapons were involved. 'Furtive movement' and 'high-crime area' alone will not carry it.",
+"notes": [
+"Ohio case. The stop happened at Huron Road and Euclid Avenue in downtown Cleveland."
+],
+"related": [
+"401.13",
+"402.2"
+],
+"cat": "stops"
+},
+{
+"id": "mendenhall",
+"name": "United States v. Mendenhall / Florida v. Bostick / United States v. Drayton",
+"cite": "446 U.S. 544 (1980); 501 U.S. 429 (1991); 536 U.S. 194 (2002)",
+"year": 1980,
+"court": "scotus",
+"tags": [
+"consensual encounter",
+"seizure"
+],
+"facts": "Three cases on when a person is 'seized.' Mendenhall: DEA agents approached a woman in an airport, asked for ID and her ticket, and asked her to come to an office. Bostick: officers boarded a bus and asked a passenger for consent to search his bag. Drayton: officers on a bus asked passengers about luggage and for consent to pat them down, without telling them they could refuse.",
+"held": "A person is seized only when, under the totality of the circumstances, a reasonable person would not feel free to leave (or, on a bus, free to decline the officers' requests and end the encounter). Officers may approach people in public, ask questions, ask for ID, and ask for consent to search without any suspicion, so long as they do not convey that compliance is required. Officers do not have to tell people they can refuse.",
+"forUs": "The consensual encounter is your most flexible tool and the easiest to accidentally convert into a stop. Things that signal a seizure: multiple officers surrounding, displaying a weapon, touching, commanding tone, keeping someone's ID, blocking their path, activating lights behind a parked car. Keep it conversational, hand the ID back, and if you move to commands you now need reasonable suspicion. 401.13 governs how you document field interviews.",
+"related": [
+"401.13"
+],
+"cat": "stops",
+"notes": []
+},
+{
+"id": "hodari",
+"name": "California v. Hodari D.",
+"cite": "499 U.S. 621",
+"year": 1991,
+"court": "scotus",
+"tags": [
+"seizure",
+"flight",
+"abandonment"
+],
+"facts": "Oakland officers in an unmarked car saw a group of youths run when they approached. One officer chased Hodari on foot. Just before the officer tackled him, Hodari tossed a rock of crack cocaine.",
+"held": "A person who does not submit to a show of authority is not seized until he is physically caught. Because Hodari had not been seized when he threw the drugs, they were abandoned, not the fruit of a seizure, regardless of whether the officer had reasonable suspicion to chase him.",
+"forUs": "If a person runs and dumps something before you get hands on him, that property is usually admissible even if your original reason to chase was thin. Once you grab him, the seizure happens and you need reasonable suspicion from the facts up to that point. Note that flight itself, in the right context, contributes to reasonable suspicion (Wardlow).",
+"related": [
+"401.13",
+"407.1"
+],
+"cat": "stops",
+"notes": []
+},
+{
+"id": "wardlow",
+"name": "Illinois v. Wardlow",
+"cite": "528 U.S. 119",
+"year": 2000,
+"court": "scotus",
+"tags": [
+"flight",
+"high-crime area"
+],
+"facts": "A four-car Chicago caravan drove into an area known for heavy narcotics trafficking. William Wardlow, standing next to a building holding an opaque bag, looked at the officers and ran. Officers chased him down, frisked him, squeezed the bag, and found a .38.",
+"held": "Unprovoked flight from police in a high-crime area, viewed together, can supply reasonable suspicion for a Terry stop. Neither factor alone is enough, and a person has a right to ignore police and go about his business, but headlong flight is the opposite of going about one's business.",
+"forUs": "Flight plus context can justify a stop, but you need to be able to describe the context: why this area, what you know about it, what time, what the person did when he saw you. 'He ran' in a vacuum is not enough. Also: Wardlow got a frisk because the officers suspected weapons given the drug-trafficking context; still articulate armed-and-dangerous separately.",
+"related": [
+"401.13"
+],
+"cat": "stops",
+"notes": []
+},
+{
+"id": "jl",
+"name": "Florida v. J.L.",
+"cite": "529 U.S. 266",
+"year": 2000,
+"court": "scotus",
+"tags": [
+"anonymous tip",
+"firearm"
+],
+"facts": "An anonymous caller told Miami-Dade police that a young Black male in a plaid shirt standing at a bus stop had a gun. Officers found a teen matching the description, frisked him, and found a gun. There was no other suspicious behavior, no information about the caller, and no corroboration beyond the description and location.",
+"held": "A bare anonymous tip that a person is carrying a gun, without any indicia of reliability or predictive information, does not justify a stop and frisk. There is no 'firearm exception' to the reasonable-suspicion requirement.",
+"forUs": "'Anonymous caller says man in red hoodie has a gun' is not enough by itself to stop and frisk. You need more: your own observations, the caller giving details that prove inside knowledge, a 911 caller who is traceable (see Navarette), or conduct you see yourself. Note that in Ohio, many people lawfully carry; a report of 'a gun' is not a report of a crime. Compare State v. Hairston and State v. Tidwell for what Ohio accepts.",
+"related": [
+"401.13"
+],
+"cat": "stops",
+"notes": []
+},
+{
+"id": "navarette",
+"name": "Navarette v. California",
+"cite": "572 U.S. 393",
+"year": 2014,
+"court": "scotus",
+"tags": [
+"anonymous tip",
+"911",
+"OVI"
+],
+"facts": "A 911 caller reported that a specific silver Ford F-150, with a plate number, had just run her off the road at a specific location. CHP found the truck 18 minutes later and stopped it without observing any bad driving. Officers smelled marijuana and found 30 pounds.",
+"held": "The 911 call had enough indicia of reliability to support reasonable suspicion of drunk driving: the caller claimed eyewitness knowledge, the report was contemporaneous, and 911 calls can be traced and false reports prosecuted. A reasonable officer need not follow the vehicle to personally observe impairment before stopping it.",
+"forUs": "A 911 caller reporting a specific dangerous driving event, with a plate and location, can justify a stop even if you see nothing wrong. Have dispatch capture the caller's info and get the call recorded; that traceability is the difference from J.L. The thinner the report (no plate, vague description, no specific dangerous act), the more you need your own observation.",
+"related": [
+"406.2",
+"406.1"
+],
+"cat": "stops",
+"notes": []
+},
+{
+"id": "hairston",
+"name": "State v. Hairston",
+"cite": "2019-Ohio-1622",
+"year": 2019,
+"court": "ohio",
+"tags": [
+"gunshots",
+"reasonable suspicion"
+],
+"facts": "Columbus officers heard four to five gunshots about 30 to 60 seconds away, in a residential area they knew for gun violence, at night. They drove toward the sound and found Jaonte Hairston, the only person on the street, walking and talking on a phone. They ordered him to stop at gunpoint, frisked him, and found a gun.",
+"held": "Under the totality of the circumstances (gunshots moments earlier, close by, in a high-crime area, at night, and Hairston being the only person in the vicinity), the officers had reasonable suspicion for a stop and frisk. Drawing guns during the stop did not convert it into an arrest.",
+"forUs": "Shots fired plus immediate proximity plus the only person around can justify a stop and frisk under Ohio law. The key facts were timing (under a minute), distance, and no one else present. If several minutes pass or the area is crowded, you need more. Drawing down is permitted for a legitimate officer-safety reason without turning the stop into an arrest, but say why on camera.",
+"related": [
+"401.13",
+"402.2"
+],
+"cat": "stops",
+"notes": []
+},
+{
+"id": "tidwell",
+"name": "State v. Tidwell",
+"cite": "2021-Ohio-2072",
+"year": 2021,
+"court": "ohio",
+"tags": [
+"in-person tip",
+"OVI"
+],
+"facts": "A man drove into a Cincinnati-area gas station, pulled up to a state trooper's cruiser, and said 'that lady is drunk' and 'she almost hit me,' pointing at a woman walking back to her car. He drove off without giving his name. The trooper approached the woman's vehicle as she was getting in, reached in to take the keys, and found her impaired.",
+"held": "An unidentified in-person tipster who reports a contemporaneous, firsthand observation is more reliable than a truly anonymous caller, because the officer can observe demeanor and the tipster exposes himself to identification. Combined with the trooper's partial corroboration (the described woman walking to the described car), the tip supplied reasonable suspicion.",
+"forUs": "A face-to-face report from someone who just saw the crime, even if they don't give a name, carries real weight in Ohio. Note what the tipster looked like, what they said, that they pointed the person out, and what you corroborated. Try to get a name or plate; it makes the case much stronger, but its absence isn't fatal.",
+"related": [
+"406.2"
+],
+"cat": "stops",
+"notes": []
+},
+{
+"id": "hiibel",
+"name": "Hiibel v. Sixth Judicial District Court",
+"cite": "542 U.S. 177",
+"year": 2004,
+"court": "scotus",
+"tags": [
+"identification"
+],
+"facts": "A Nevada deputy responded to a report of a man hitting a woman in a truck. He found Larry Hiibel standing by a truck with a woman inside, asked for identification eleven times, and was refused each time. Hiibel was arrested under Nevada's stop-and-identify statute.",
+"held": "Requiring a person to state his name during a valid Terry stop, under a state stop-and-identify law, does not violate the Fourth or Fifth Amendment.",
+"forUs": "Ohio has its own version: R.C. 2921.29 makes it an offense to refuse to give name, address, and date of birth when you are lawfully stopped with reasonable suspicion that the person committed, is committing, or is about to commit a crime, or witnessed a felony offense of violence. It does not require them to produce a physical ID, and it does not apply to a consensual encounter. If you don't have reasonable suspicion, you can't arrest for failure to identify.",
+"related": [
+"401.13",
+"402.1"
+],
+"cat": "stops",
+"notes": []
+},
+{
+"id": "dickerson",
+"name": "Minnesota v. Dickerson",
+"cite": "508 U.S. 366",
+"year": 1993,
+"court": "scotus",
+"tags": [
+"frisk",
+"plain feel"
+],
+"facts": "A Minneapolis officer saw Timothy Dickerson leave a known crack house and turn away when he spotted police. He stopped and frisked him, felt no weapon, but felt a small lump in a jacket pocket, manipulated it with his fingers, decided it was crack, and pulled it out.",
+"held": "Under the 'plain feel' doctrine, if during a lawful frisk an officer feels an object whose incriminating character is immediately apparent, he may seize it. But the officer here exceeded Terry by continuing to squeeze and manipulate the object after determining it was not a weapon.",
+"forUs": "The frisk is for weapons. If you immediately recognize contraband by feel, you can take it, but 'immediately' means without squeezing, sliding, or working it around. Once you know it's not a weapon, your hand moves on. Write what you felt and why you knew what it was without manipulation.",
+"related": [
+"401.13",
+"402.2"
+],
+"cat": "stops",
+"notes": []
+},
+{
+"id": "long",
+"name": "Michigan v. Long",
+"cite": "463 U.S. 1032",
+"year": 1983,
+"court": "scotus",
+"tags": [
+"vehicle frisk"
+],
+"facts": "Deputies saw a car swerve into a ditch late at night. David Long, the only occupant, met them at the rear of the car, appeared intoxicated, and started walking back toward the open driver's door. Deputies saw a large hunting knife on the floorboard, frisked Long, then looked inside the car and found marijuana.",
+"held": "A Terry frisk may extend to the passenger compartment of a vehicle, limited to areas where a weapon could be placed or hidden, when the officer has reasonable belief that the suspect is dangerous and may gain immediate control of a weapon.",
+"forUs": "If you have armed-and-dangerous facts during a vehicle stop, you can check the areas of the passenger compartment the person could reach for a weapon, even if he's out of the car, because he may go back in. Not the trunk, not closed containers that couldn't hold a weapon. Articulate the specific facts (the knife, the furtive reach, the known gang member) that made you think weapons.",
+"related": [
+"402.2",
+"406.1"
+],
+"cat": "stops",
+"notes": []
+},
+{
+"id": "arvizu",
+"name": "United States v. Arvizu",
+"cite": "534 U.S. 266",
+"year": 2002,
+"court": "scotus",
+"tags": [
+"totality",
+"reasonable suspicion"
+],
+"facts": "A Border Patrol agent stopped a minivan on a remote Arizona road based on a cluster of individually innocent facts: timing that matched a shift change, a route used to avoid a checkpoint, the driver's stiff posture, children waving mechanically for several minutes, and a registration to an address in an area known for smuggling.",
+"held": "Reasonable suspicion is judged under the totality of the circumstances, and courts may not evaluate each factor in isolation and dismiss it as innocent. Officers may draw on their experience and training to make inferences from the cumulative picture.",
+"forUs": "Don't let a defense attorney pick your facts apart one at a time. Write them as a cluster and explain what the combination meant to you based on your training and experience. The more specific, the better: not 'nervous' but what nervous looked like.",
+"related": [
+"401.13"
+],
+"cat": "stops",
+"notes": []
+},
+{
+"id": "glover",
+"name": "Kansas v. Glover",
+"cite": "589 U.S. 376",
+"year": 2020,
+"court": "scotus",
+"tags": [
+"registered owner",
+"suspended license"
+],
+"facts": "A Kansas deputy ran a plate on a pickup and learned the registered owner's license was revoked. He stopped the truck without seeing any violation and without trying to identify the driver. The owner was driving.",
+"held": "An officer who knows the registered owner's license is revoked may reasonably infer the owner is driving, and that inference supplies reasonable suspicion for a stop, absent information negating it (such as the driver clearly not matching the owner's description).",
+"forUs": "Plate comes back to an owner with a suspended license: you can stop the car. But if you can see before the stop that the driver is obviously not the owner (owner is a 60-year-old man, driver is a 20-year-old woman), the suspicion is gone and you need something else. See State v. Dunlap for what happens after the stop when the driver turns out not to be the owner.",
+"related": [
+"406.1"
+],
+"cat": "stops",
+"notes": []
+},
+{
+"id": "dunlap",
+"name": "State v. Dunlap",
+"cite": "2024-Ohio-4821",
+"year": 2024,
+"court": "ohio",
+"tags": [
+"registered owner",
+"Rodriguez mission",
+"recent"
+],
+"facts": "An officer ran a plate, learned the registered owner had a suspended license, and stopped the car. On approach, the officer saw the driver was not the owner. The officer nonetheless asked the driver for his license, learned he too was suspended, and charged him.",
+"held": "Even after the officer realized the driver was not the owner, asking the driver for his license was within the 'mission' of the stop under Rodriguez (checking the driver's license is an ordinary inquiry incident to any traffic stop). State v. Chatton (1984), which had required officers to let a driver go once the basis for the stop dissolved, is superseded to the extent it conflicts.",
+"forUs": "When the reason for a stop evaporates on approach, you may still complete the routine license check, but that is about all; you cannot run a full investigation or hold the person while you fish. Do the ordinary checks promptly and send them on their way if nothing turns up. This updates older Ohio training that said 'basis gone, stop over, no license request.'",
+"related": [
+"406.1"
+],
+"cat": "stops",
+"notes": []
+},
+{
+"id": "mathis",
+"name": "State v. Mathis",
+"cite": "2026-Ohio-2269",
+"year": 2026,
+"court": "ohio",
+"tags": [
+"multiple bases",
+"window tint",
+"recent"
+],
+"facts": "Two days after an armed robbery involving a gold or tan Dodge or Chrysler minivan with a plate possibly starting 'TWL,' a Cleveland officer saw a light blue Chrysler minivan, plate JWL 5635, with windows that looked illegally tinted. He stopped it on both grounds. Before speaking to the driver, he noticed the color and plate didn't quite match the robbery description. During the stop officers smelled burnt marijuana, saw it inside, had the driver step out, frisked him, and found a loaded gun; the driver was a felon. The tint tested at 12 percent against a 50 percent requirement.",
+"held": "An officer who initiates a stop on multiple independent grounds of reasonable suspicion need not end the stop when later facts extinguish one ground but leave another intact. The officer's subjective motive doesn't control the analysis.",
+"forUs": "If you have two reasons for a stop, losing one doesn't end it. Document both reasons at the time, not after. In Mathis the tint suspicion was real and independently supported (the officer had done hundreds of tint stops and the meter confirmed it); a made-up secondary reason won't hold.",
+"notes": [
+"Decided June 18, 2026. Justice Hawkins wrote for the court."
+],
+"related": [
+"406.1"
+],
+"cat": "stops"
+},
+{
+"id": "wilson",
+"name": "Pennsylvania v. Mimms / Maryland v. Wilson / Brendlin v. California / Arizona v. Johnson",
+"cite": "434 U.S. 106 (1977); 519 U.S. 408 (1997); 551 U.S. 249 (2007); 555 U.S. 323 (2009)",
+"year": 1977,
+"court": "scotus",
+"tags": [
+"traffic stop",
+"passengers",
+"frisk"
+],
+"facts": "Four building-block traffic-stop cases. Mimms: officer ordered a driver out during a stop for an expired plate and saw a bulge. Wilson: officer ordered a nervous passenger out; crack fell to the ground. Brendlin: passenger challenged a stop as a seizure of him too. Johnson: officers frisked a passenger in a car stopped for an insurance violation, based on his gang clothing and a scanner, with no suspicion he'd committed a crime.",
+"held": "Officers may order the driver (Mimms) and passengers (Wilson) out of a lawfully stopped vehicle without any additional justification. Passengers are seized by a traffic stop and may challenge it (Brendlin). During a lawful stop, officers may frisk a passenger if they reasonably suspect he is armed and dangerous, even without suspicion he committed a crime (Johnson).",
+"forUs": "On any lawful traffic stop you can order everyone out, no extra reason needed; keeping them in with hands visible is equally fine. A frisk of anyone still requires armed-and-dangerous facts specific to that person. Because passengers are seized too, an unlawful stop lets the passenger suppress whatever is found on him.",
+"related": [
+"406.1",
+"402.2"
+],
+"cat": "stops",
+"notes": []
+},
+{
+"id": "rodriguez",
+"name": "Rodriguez v. United States",
+"cite": "575 U.S. 348",
+"year": 2015,
+"court": "scotus",
+"tags": [
+"traffic stop",
+"K-9",
+"duration"
+],
+"facts": "A Nebraska officer stopped Dennys Rodriguez for driving on the shoulder, ran everything, wrote a warning, handed back the documents, and then asked for consent to walk his dog around the car. Rodriguez refused. The officer held him seven or eight more minutes until backup arrived, ran the dog, and found methamphetamine.",
+"held": "A traffic stop may last no longer than needed to complete its 'mission' (addressing the violation, checking license, registration, insurance, and warrants, and attending to related safety concerns). Extending the stop even briefly for a dog sniff or other unrelated investigation requires independent reasonable suspicion. There is no de minimis exception.",
+"forUs": "The clock on a traffic stop is the time it takes to diligently do the traffic work. A dog sniff is fine if it happens while that work is still legitimately underway; it is not fine if you slow down, stop writing, or hold the person after the ticket is done. If you want the dog, call early and keep working the stop. Ohio courts apply this strictly (see State v. Batchili and the appellate cases following it).",
+"notes": [
+"Ohio: State v. Batchili (2007) says a stop is not unconstitutionally prolonged when background checks were diligently undertaken and not yet complete when the dog alerts. State v. Tanner (2d Dist. 2025) suppressed where the officer stopped writing the ticket to wait on the dog, even though the whole stop was only 12 minutes.",
+"State v. Kincaid (Ohio Supreme Court, argued October 2025) asks whether waiting on backup for officer safety before a sniff extends the stop; watch for the decision."
+],
+"related": [
+"406.1",
+"401.24"
+],
+"cat": "stops"
+},
+{
+"id": "heien",
+"name": "Heien v. North Carolina",
+"cite": "574 U.S. 54",
+"year": 2014,
+"court": "scotus",
+"tags": [
+"mistake of law"
+],
+"facts": "A North Carolina officer stopped a car for having one working brake light. State law, it turned out, only required one. During the stop the officer got consent and found cocaine.",
+"held": "A traffic stop based on an objectively reasonable mistake of law can still be supported by reasonable suspicion. The mistake must be genuinely reasonable (the statute was ambiguous and had never been interpreted), not merely an officer's misunderstanding of a clear law.",
+"forUs": "This saves you only when the law itself is genuinely unclear. It does not cover not knowing the elements of a clear statute. Know the traffic code; 'I thought that was illegal' on a plainly legal act will get the stop suppressed and expose you to a civil claim.",
+"related": [
+"406.1"
+],
+"cat": "stops",
+"notes": []
+},
+{
+"id": "whren",
+"name": "Whren v. United States",
+"cite": "517 U.S. 806",
+"year": 1996,
+"court": "scotus",
+"tags": [
+"pretext"
+],
+"facts": "Plainclothes vice officers in an unmarked car in a high-drug area of D.C. saw a truck pause at a stop sign for an unusually long time, then turn without signaling and speed off. They stopped it for the traffic violations and saw crack in the passenger's hands.",
+"held": "A traffic stop is reasonable under the Fourth Amendment whenever an officer has probable cause to believe a traffic violation occurred, regardless of the officer's actual motive. Pretextual stops are not a Fourth Amendment problem; selective enforcement based on race is an Equal Protection problem.",
+"forUs": "An actual violation justifies the stop even if you're really interested in something else. Two cautions. First, Whren doesn't protect against an Equal Protection claim or a 103.10 biased-policing complaint; patterns matter. Second, Ohio courts and your own department look at pretext data. Have a real, observed violation and write it.",
+"related": [
+"406.1",
+"103.10"
+],
+"cat": "stops",
+"notes": []
+},
+{
+"id": "prouse",
+"name": "Delaware v. Prouse",
+"cite": "440 U.S. 648",
+"year": 1979,
+"court": "scotus",
+"tags": [
+"random stop"
+],
+"facts": "A Delaware officer stopped a car at random to check license and registration, with no violation and no suspicion. He smelled marijuana and saw it on the floor.",
+"held": "Random, suspicionless stops of individual vehicles to check license and registration violate the Fourth Amendment. States may use checkpoints that stop all vehicles or use neutral criteria.",
+"forUs": "You need a violation or reasonable suspicion to stop a car. You may run plates freely (no expectation of privacy in a plate), and if the return gives you something, that's your basis. Sobriety checkpoints are permitted under separate rules (Michigan v. Sitz) and require advance planning and supervision.",
+"related": [
+"406.1",
+"401.33"
+],
+"cat": "stops",
+"notes": []
+},
+{
+"id": "strieff",
+"name": "Utah v. Strieff",
+"cite": "579 U.S. 232",
+"year": 2016,
+"court": "scotus",
+"tags": [
+"warrant",
+"attenuation"
+],
+"facts": "A Salt Lake City detective watching a suspected drug house stopped Edward Strieff as he left, without reasonable suspicion. He ran Strieff's ID, found an outstanding traffic warrant, arrested him, and found meth in a search incident to arrest.",
+"held": "Discovery of a valid, pre-existing arrest warrant attenuated the connection between the unlawful stop and the evidence, so suppression was not required. The officer's conduct was at most negligent, not flagrant or part of systemic misconduct.",
+"forUs": "An active warrant can rescue evidence from a bad stop, but the Court stressed the officer's error was isolated and in good faith. Do not read Strieff as permission to stop people on hunches and hope for warrants; a pattern of that is exactly the 'flagrant' conduct that loses. It also doesn't fix the civil exposure for the stop itself.",
+"related": [
+"401.13",
+"402.1"
+],
+"cat": "stops",
+"notes": []
+},
+{
+"id": "robinette",
+"name": "Ohio v. Robinette / State v. Robinette",
+"cite": "519 U.S. 33 (1996); 80 Ohio St.3d 234 (1997)",
+"year": 1996,
+"court": "ohio",
+"tags": [
+"consent",
+"traffic stop",
+"Ohio case"
+],
+"facts": "A Montgomery County deputy stopped Robert Robinette for speeding, gave him a verbal warning, returned his license, then said 'One question before you get gone: are you carrying any illegal contraband... weapons... drugs?' Robinette said no and consented to a search. Deputies found marijuana and a pill.",
+"held": "U.S. Supreme Court: the Fourth Amendment does not require officers to tell a motorist he is 'free to go' before asking for consent. Ohio Supreme Court on remand: under the totality of the circumstances, a consent given during an unlawfully continued detention, when a reasonable person would not have felt free to leave, is not voluntary. Ohio courts look hard at whether the person knew the stop was over.",
+"forUs": "Federally you don't have to say 'you're free to go,' but in Ohio courts your consent request will be scrutinized for whether the stop had really ended. Best practice: hand back the documents, finish the traffic business, make it clear they're free to leave, then ask. Get the ask and the answer on camera.",
+"related": [
+"406.1",
+"402.2"
+],
+"cat": "stops",
+"notes": []
+},
+{
+"id": "brown2015",
+"name": "State v. Brown (extraterritorial stop)",
+"cite": "2015-Ohio-2438",
+"year": 2015,
+"court": "ohio",
+"tags": [
+"jurisdiction",
+"Ohio differs"
+],
+"facts": "A Lake Township officer, outside his territorial jurisdiction, stopped a car on an interstate for a marked-lanes violation and found drugs. Under R.C. 2935.03 he lacked authority to make the stop there.",
+"held": "A traffic stop made by an officer outside his statutory territorial jurisdiction for a minor misdemeanor violates Article I, Section 14 of the Ohio Constitution, and the evidence is suppressed, even though it would not violate the Fourth Amendment (Virginia v. Moore).",
+"forUs": "Ohio's constitution gives more protection than the Fourth Amendment on this. Know the edges of your authority under R.C. 2935.03 (and mutual-aid agreements). A minor-misdemeanor stop you had no statutory authority to make gets suppressed in Ohio regardless of what federal law says.",
+"related": [
+"406.1",
+"408.5"
+],
+"cat": "stops",
+"notes": []
+},
+{
+"id": "summers",
+"name": "Michigan v. Summers / Bailey v. United States / Muehler v. Mena",
+"cite": "452 U.S. 692 (1981); 568 U.S. 186 (2013); 544 U.S. 93 (2005)",
+"year": 1981,
+"court": "scotus",
+"tags": [
+"search warrant",
+"detention"
+],
+"facts": "Summers: officers executing a drug search warrant detained the resident as he was leaving the house. Bailey: officers followed a resident who left before the search began and detained him about a mile away. Mena: during a gang-related warrant search, officers kept a resident handcuffed in a garage for two to three hours and questioned her about immigration status.",
+"held": "Officers executing a search warrant may detain occupants found on or immediately outside the premises for the duration of the search (Summers), but that authority does not extend to someone who has already left the immediate vicinity (Bailey). Handcuffing occupants for the length of a dangerous search can be reasonable, and unrelated questioning doesn't violate the Fourth Amendment if it doesn't extend the detention (Mena).",
+"forUs": "On a warrant you can hold and, when the risk justifies it, cuff everyone found at or right outside the location for the search's duration. If someone drives away before you hit the door, stop them nearby or not at all under this rule; a mile down the road needs independent justification. Reassess cuffs as the scene calms.",
+"related": [
+"402.2",
+"403.1"
+],
+"cat": "stops",
+"notes": []
+},
+{
+"id": "katz",
+"name": "Katz v. United States",
+"cite": "389 U.S. 347",
+"year": 1967,
+"court": "scotus",
+"tags": [
+"foundational",
+"expectation of privacy"
+],
+"facts": "FBI agents attached a listening device to the outside of a public phone booth Charles Katz used to place bets. No physical intrusion into the booth.",
+"held": "The Fourth Amendment protects people, not places. A search occurs when the government violates a reasonable expectation of privacy (subjective expectation society is prepared to recognize as reasonable). What a person knowingly exposes to the public is not protected; what he seeks to keep private, even in a public place, may be.",
+"forUs": "The question for any 'is this a search' problem: did the person reasonably expect privacy there? Open view from a public sidewalk, no. Inside a bag, a car trunk, a phone, a home: yes. The Court has since added a second test, physical trespass on protected property for information (Jones, Jardines), so either one triggers the Fourth Amendment.",
+"related": [
+"402.2"
+],
+"cat": "search",
+"notes": []
+},
+{
+"id": "carroll",
+"name": "Carroll v. United States / Pennsylvania v. Labron / Wyoming v. Houghton",
+"cite": "267 U.S. 132 (1925); 518 U.S. 938 (1996); 526 U.S. 295 (1999)",
+"year": 1925,
+"court": "scotus",
+"tags": [
+"automobile exception",
+"foundational"
+],
+"facts": "Carroll: Prohibition agents stopped a car on the highway between Detroit and Grand Rapids, having probable cause it carried liquor, and tore into the upholstery. Labron: officers searched parked cars with probable cause but without getting a warrant even though they had time. Houghton: a trooper with probable cause to search a car for drugs searched a passenger's purse.",
+"held": "With probable cause to believe a vehicle contains evidence or contraband, officers may search it without a warrant (Carroll). No separate exigency is required beyond the vehicle's inherent mobility and reduced expectation of privacy (Labron). The search extends to any container in the car that could hold the object of the search, including a passenger's belongings (Houghton).",
+"forUs": "Probable cause plus a readily mobile vehicle equals a search, no warrant needed, including the trunk and containers that could hold what you're looking for. The scope is defined by what you have probable cause to find: looking for a stolen TV does not open a cigarette pack. Write the probable cause specifically. 402.2 tracks this.",
+"notes": [
+"Collins v. Virginia (2018): the automobile exception does not let you walk onto the curtilage (driveway next to the house, carport) to search a vehicle. Get a warrant or another exception for the curtilage entry."
+],
+"related": [
+"402.2"
+],
+"cat": "search"
+},
+{
+"id": "gant",
+"name": "Arizona v. Gant",
+"cite": "556 U.S. 332",
+"year": 2009,
+"court": "scotus",
+"tags": [
+"search incident to arrest",
+"vehicle"
+],
+"facts": "Tucson officers arrested Rodney Gant for driving on a suspended license, handcuffed him, and locked him in the back of a patrol car. They then searched his car and found cocaine in a jacket on the back seat.",
+"held": "Police may search a vehicle incident to a recent occupant's arrest only if (1) the arrestee is unsecured and within reaching distance of the passenger compartment at the time of the search, or (2) it is reasonable to believe the vehicle contains evidence of the offense of arrest. Otherwise, another exception (probable cause, inventory, consent) is required.",
+"forUs": "Once the arrestee is cuffed in your car, the search-incident justification is gone unless the crime of arrest is one that could leave evidence in the car (drugs, DUI, weapons, theft). A suspended-license or warrant arrest gives you nothing under Gant. If the car is being towed, inventory it under policy; if you have probable cause, use the automobile exception; say which one you're using in the report.",
+"related": [
+"402.2",
+"402.1",
+"406.3"
+],
+"cat": "search",
+"notes": []
+},
+{
+"id": "chimel",
+"name": "Chimel v. California / United States v. Robinson",
+"cite": "395 U.S. 752 (1969); 414 U.S. 218 (1973)",
+"year": 1969,
+"court": "scotus",
+"tags": [
+"search incident to arrest"
+],
+"facts": "Chimel: officers arrested a man at home on a burglary warrant and then searched his entire three-bedroom house without a search warrant. Robinson: an officer arrested a driver for operating after revocation, patted him down, felt an object in a pocket, pulled out a crumpled cigarette pack, opened it, and found heroin.",
+"held": "A search incident to arrest covers the arrestee's person and the area within his immediate control (where he could reach a weapon or destroy evidence), not the whole house (Chimel). A full search of the person incident to a lawful custodial arrest is always reasonable, including opening containers found on him, and requires no case-specific justification (Robinson).",
+"forUs": "Custodial arrest equals a full search of the person and what he's carrying, no further justification needed. The area search is limited to what he could reach at the time. If you arrest someone in his living room, you don't get the bedroom. Note Riley: phones are different (see below). Also, in Ohio, no custodial arrest for a minor misdemeanor means no search incident (State v. Jones/Brown).",
+"related": [
+"402.2",
+"402.1"
+],
+"cat": "search",
+"notes": []
+},
+{
+"id": "riley",
+"name": "Riley v. California",
+"cite": "573 U.S. 373",
+"year": 2014,
+"court": "scotus",
+"tags": [
+"cell phone",
+"search incident to arrest"
+],
+"facts": "San Diego officers stopped David Riley for expired tags, found guns under the hood, arrested him, and went through his smartphone, finding photos and videos tying him to a gang shooting. In the companion case, Boston officers looked through a flip phone's call log after a drug arrest.",
+"held": "Police generally may not search the digital contents of a cell phone seized incident to arrest without a warrant. Phones hold the privacies of life and are not like a wallet or a cigarette pack. Officers may secure the phone, and true exigencies can still justify an immediate search case by case.",
+"forUs": "Seize the phone, bag it (airplane mode or Faraday bag to prevent remote wipe), and get a warrant. Don't scroll, don't open it 'just to get a name,' and don't use the arrestee's face or thumb to unlock it without legal guidance. Consent is possible but must be truly voluntary and documented. Exigency is a narrow exception (a kidnapping in progress, a bomb), not a convenience.",
+"related": [
+"402.2",
+"407.1"
+],
+"cat": "search",
+"notes": []
+},
+{
+"id": "carpenter",
+"name": "Carpenter v. United States",
+"cite": "585 U.S. 296",
+"year": 2018,
+"court": "scotus",
+"tags": [
+"cell site",
+"digital",
+"third party"
+],
+"facts": "FBI obtained 127 days of historical cell-site location records for Timothy Carpenter from his carrier under a court order (a lower standard than a warrant) and used them to place him near a series of robberies.",
+"held": "Obtaining historical cell-site location information covering a person's movements over a period of days is a Fourth Amendment search, requiring a warrant supported by probable cause, despite the records being held by a third party.",
+"forUs": "Historical phone location data needs a warrant. Real-time pings in an emergency fall under exigency rules and the carrier's emergency process. Don't assume a subpoena or a court order is enough for location history. Chatrie (2026) extended this to Google location history and geofence requests.",
+"related": [
+"402.2",
+"403.2"
+],
+"cat": "search",
+"notes": []
+},
+{
+"id": "chatrie",
+"name": "Chatrie v. United States",
+"cite": "608 U.S. ___",
+"year": 2026,
+"court": "scotus",
+"tags": [
+"geofence",
+"digital",
+"recent"
+],
+"facts": "Investigating a Virginia bank robbery, police obtained a geofence warrant directing Google to disclose location history for every device within 150 meters of the bank during a two-hour window, then narrowed the list in steps to identify Okello Chatrie. The government argued that two hours of data voluntarily shared with Google was not a search.",
+"held": "Acquiring a person's cell-phone location data from a third party is a Fourth Amendment search, even for a short window, because people have a reasonable expectation of privacy in their location history. Whether the geofence warrant itself was reasonable was sent back to the lower court.",
+"forUs": "Any request for someone's phone location, even a short window and even through Google rather than the carrier, is a search. Expect prosecutors and detectives to require a warrant with particularity for geofence requests, and expect those warrants to get litigated. On patrol this mostly means: preserve the scene and timeline; the digital follow-up runs through a warrant.",
+"notes": [
+"Decided June 29, 2026, 6-3 on the search question, opinion by Justice Kagan."
+],
+"related": [
+"402.2",
+"403.2"
+],
+"cat": "search"
+},
+{
+"id": "payton",
+"name": "Payton v. New York / Steagald v. United States",
+"cite": "445 U.S. 573 (1980); 451 U.S. 204 (1981)",
+"year": 1980,
+"court": "scotus",
+"tags": [
+"home entry",
+"arrest warrant"
+],
+"facts": "Payton: NYPD officers with probable cause for murder went to Theodore Payton's apartment without a warrant, broke in when no one answered, and found a shell casing in plain view. Steagald: DEA agents entered Gary Steagald's house without a search warrant to look for a fugitive named in an arrest warrant; they didn't find the fugitive but found cocaine.",
+"held": "Absent consent or exigent circumstances, police may not enter a home to make a routine arrest without a warrant (Payton). An arrest warrant lets you enter the suspect's own residence when there is reason to believe he is inside, but entering a third party's home to arrest him requires a search warrant (or consent or exigency) to protect the third party's privacy (Steagald).",
+"forUs": "The threshold of a home is the line. An arrest warrant gets you into the subject's own home when you reasonably believe he's there now. To go into someone else's house for him, you need a search warrant, consent from a resident, or a true exigency. 'He's staying at his girlfriend's' is a Steagald problem; get consent or a warrant.",
+"related": [
+"402.2",
+"402.1"
+],
+"cat": "search",
+"notes": []
+},
+{
+"id": "king",
+"name": "Kentucky v. King",
+"cite": "563 U.S. 452",
+"year": 2011,
+"court": "scotus",
+"tags": [
+"exigency",
+"destruction of evidence",
+"home entry"
+],
+"facts": "Lexington officers chasing a drug suspect lost him in a breezeway, smelled marijuana at one apartment door, banged loudly, announced police, heard movement they took as evidence being destroyed, and kicked the door in. They had the wrong apartment but found drugs.",
+"held": "The exigent-circumstances exception applies when police did not create the exigency by engaging or threatening to engage in conduct that violates the Fourth Amendment. Knocking and announcing is lawful conduct, so officers may rely on the resulting exigency (sounds of evidence destruction) to enter.",
+"forUs": "Knock-and-talk is lawful, and if lawful knocking produces real evidence of destruction, you can enter. You cannot manufacture the exigency by threatening to break in without a warrant. Document the specific sounds and facts that made destruction imminent. The entry is still limited to the emergency; secure the place and get a warrant for the full search.",
+"related": [
+"402.2"
+],
+"cat": "search",
+"notes": []
+},
+{
+"id": "brigham",
+"name": "Brigham City v. Stuart / Michigan v. Fisher",
+"cite": "547 U.S. 398 (2006); 558 U.S. 45 (2009)",
+"year": 2006,
+"court": "scotus",
+"tags": [
+"emergency aid",
+"home entry"
+],
+"facts": "Brigham City: officers responding to a 3 a.m. loud-party call looked through a screen door and saw a juvenile punch an adult in the face, drawing blood, with others trying to restrain him. They entered. Fisher: officers found a man inside his house screaming and throwing things, with blood on the door and his hand, and entered after he refused to open.",
+"held": "Police may enter a home without a warrant when they have an objectively reasonable basis to believe an occupant is seriously injured or imminently threatened with such injury. Officers do not need to wait for a fight to produce serious injury before stepping in, and their subjective motives don't matter.",
+"forUs": "Emergency aid is an objective test: would a reasonable officer believe someone inside is hurt or about to be? Blood, screaming, a visible assault, an unresponsive person, a credible report of a medical emergency or suicide attempt. Enter, address the emergency, and stop there; a full search needs consent or a warrant. Case v. Montana (2026) confirmed this standard and rejected a probable-cause requirement.",
+"related": [
+"402.2",
+"401.5",
+"401.9"
+],
+"cat": "search",
+"notes": []
+},
+{
+"id": "case",
+"name": "Case v. Montana",
+"cite": "607 U.S. 107",
+"year": 2026,
+"court": "scotus",
+"tags": [
+"emergency aid",
+"welfare check",
+"recent"
+],
+"facts": "William Case's ex-girlfriend called 911 saying he was threatening suicide and may have already shot himself. Officers arrived, got no response, saw signs consistent with the report, and after about 40 minutes entered without a warrant. Case was found in a closet with what looked like a gun; an officer shot and wounded him. Case argued that emergency-aid entries require probable cause.",
+"held": "Unanimously held that emergency-aid entries need only an 'objectively reasonable basis for believing' that an occupant is seriously injured or imminently threatened with such injury, the Brigham City standard, not probable cause. Probable cause is a criminal-investigation concept that fits awkwardly in a non-criminal, protective setting. The entry is limited to what is reasonably necessary to address the emergency and protect officers.",
+"forUs": "Welfare checks and suicide calls: a credible report plus what you see on scene is enough to go in. You don't need probable cause of a crime or of injury. But the authority ends with the emergency; once the person is safe, you're back to needing consent or a warrant for anything else. Document the information you had and what you observed before entry.",
+"notes": [
+"Decided January 14, 2026, 9-0, opinion by Justice Kagan. Caniglia v. Strom (2021) remains good law: 'community caretaking' by itself is not a freestanding exception for home entries."
+],
+"related": [
+"401.9",
+"402.2"
+],
+"cat": "search"
+},
+{
+"id": "caniglia",
+"name": "Caniglia v. Strom",
+"cite": "593 U.S. 194",
+"year": 2021,
+"court": "scotus",
+"tags": [
+"community caretaking",
+"firearms",
+"home entry"
+],
+"facts": "After an argument, Edward Caniglia put a gun on the table and told his wife to shoot him. The next day, at her request, officers did a welfare check, convinced him to go for a psychiatric evaluation, and then, with him gone and over his wife's objection as they understood it, entered the home and seized his two handguns, citing 'community caretaking.'",
+"held": "The community-caretaking doctrine from Cady v. Dombrowski (vehicle impounds) does not create a standalone exception allowing warrantless entries into and searches of homes. Emergency aid and exigency still apply, but general caretaking does not.",
+"forUs": "There is no 'we were just being helpful' exception for homes. Once the person in crisis is out and safe, you need consent, a warrant, or a true ongoing emergency to go in and take guns. Ask for consent from someone with authority, document it, or get the warrant (and consider whether an Ohio protection order or safety plan process applies).",
+"related": [
+"401.9",
+"401.5",
+"402.2"
+],
+"cat": "search",
+"notes": []
+},
+{
+"id": "lange",
+"name": "Lange v. California / Welsh v. Wisconsin",
+"cite": "594 U.S. 295 (2021); 466 U.S. 740 (1984)",
+"year": 2021,
+"court": "scotus",
+"tags": [
+"hot pursuit",
+"misdemeanor",
+"home entry"
+],
+"facts": "Lange: an officer followed a driver playing loud music and honking (traffic infractions), activated lights as the driver turned into his driveway, and followed him into his garage, where he smelled alcohol; DUI charge. Welsh: a witness saw a car swerve into a field and the driver walk away; officers went to his home without a warrant and arrested him in bed for a first-offense civil DUI.",
+"held": "Pursuit of a fleeing misdemeanor suspect does not categorically justify warrantless home entry; it depends on whether there is a true exigency in the particular case (Lange). The gravity of the offense is a key factor, and warrantless home entry for a minor, non-jailable offense is almost never justified (Welsh).",
+"forUs": "Chasing someone into a house for a misdemeanor requires a real emergency: imminent harm, destruction of evidence, or escape of someone dangerous. A traffic violation or a loud-music call doesn't get you through the door. Felony hot pursuit remains an exception (United States v. Santana), but even then, articulate the exigency. If it's minor, back off, hold the perimeter, and get a warrant or wait him out.",
+"related": [
+"402.2",
+"402.1",
+"406.2"
+],
+"cat": "search",
+"notes": []
+},
+{
+"id": "randolph",
+"name": "Georgia v. Randolph / Fernandez v. California / Illinois v. Rodriguez",
+"cite": "547 U.S. 103 (2006); 571 U.S. 292 (2014); 497 U.S. 177 (1990)",
+"year": 2006,
+"court": "scotus",
+"tags": [
+"consent",
+"co-occupant"
+],
+"facts": "Randolph: a wife consented to a search of the marital home; the husband, standing at the door, expressly refused. Fernandez: a suspect refused consent, was lawfully arrested and removed, and his girlfriend consented an hour later. Rodriguez: an ex-girlfriend who had moved out but still had a key let officers in, calling it 'our' apartment.",
+"held": "A physically present co-occupant's express refusal overrides another occupant's consent as to him (Randolph). Once the objector is lawfully removed, the remaining occupant's consent is valid (Fernandez). Consent from someone officers reasonably but mistakenly believe has authority over the premises is valid (Rodriguez, apparent authority).",
+"forUs": "If both people are at the door and one says no, you don't go in on consent. Don't remove the objector just to get around him; if the arrest is legitimate and independently justified, consent afterward works. For apparent authority, ask the questions: do you live here, do you have a key, is your stuff here, whose room is this. Write the answers.",
+"related": [
+"402.2",
+"401.5"
+],
+"cat": "search",
+"notes": []
+},
+{
+"id": "schneckloth",
+"name": "Schneckloth v. Bustamonte / Florida v. Jimeno",
+"cite": "412 U.S. 218 (1973); 500 U.S. 248 (1991)",
+"year": 1973,
+"court": "scotus",
+"tags": [
+"consent",
+"scope"
+],
+"facts": "Schneckloth: an officer stopped a car with a burned-out headlight, asked the passenger who said the car was his brother's if he could search, and was told 'Sure, go ahead.' Jimeno: an officer who suspected a drug deal asked to search a car, the driver consented, and the officer opened a folded paper bag on the floorboard.",
+"held": "Consent must be voluntary under the totality of the circumstances; knowledge of the right to refuse is a factor but not a requirement (Schneckloth). The scope of consent is what a reasonable person would have understood from the exchange; general consent to search a car for drugs includes containers that could hold drugs (Jimeno).",
+"forUs": "Voluntariness is about pressure: number of officers, weapons, tone, duration, whether the person was detained, age, intoxication. Ask clearly, on camera, and state what you're looking for so the scope is clear. If the person limits or withdraws consent, stop. Written consent helps; Ohio courts weigh whether the person knew the stop had ended (see Robinette).",
+"related": [
+"402.2"
+],
+"cat": "search",
+"notes": []
+},
+{
+"id": "jardines",
+"name": "Florida v. Jardines / Illinois v. Caballes / Florida v. Harris",
+"cite": "569 U.S. 1 (2013); 543 U.S. 405 (2005); 568 U.S. 237 (2013)",
+"year": 2013,
+"court": "scotus",
+"tags": [
+"K-9",
+"curtilage"
+],
+"facts": "Jardines: detectives took a drug dog onto the front porch of a house to sniff at the door. Caballes: a dog sniffed the exterior of a car during a lawful traffic stop that was not extended. Harris: a dog alerted on a truck; the defense attacked the dog's reliability because field records were incomplete.",
+"held": "A dog sniff on the front porch (curtilage) is a search requiring a warrant (Jardines). A dog sniff of a car's exterior during a lawful stop is not a search (Caballes). A dog's alert gives probable cause if the dog is certified or has completed a bona fide training program; perfect field records are not required (Harris).",
+"forUs": "Dog around the car during a lawful, non-extended stop: fine. Dog on a porch, in a yard, or at an apartment door: that's a search. Keep training and certification records current; that is what makes the alert probable cause. Watch Ohio for the pending case on a dog sticking its nose through an open window on its own.",
+"related": [
+"401.24",
+"402.2"
+],
+"cat": "search",
+"notes": []
+},
+{
+"id": "horton",
+"name": "Horton v. California / Arizona v. Hicks",
+"cite": "496 U.S. 128 (1990); 480 U.S. 321 (1987)",
+"year": 1990,
+"court": "scotus",
+"tags": [
+"plain view"
+],
+"facts": "Horton: executing a warrant for robbery proceeds, an officer saw and seized weapons used in the robbery that weren't listed in the warrant. Hicks: officers lawfully in an apartment after a shooting saw expensive stereo equipment, suspected it was stolen, and moved it to read serial numbers.",
+"held": "Plain-view seizure is valid when the officer is lawfully in the viewing position, has lawful access to the object, and its incriminating character is immediately apparent; inadvertence is not required (Horton). Moving an object even slightly to inspect it is a separate search needing probable cause (Hicks).",
+"forUs": "If you're lawfully there and it's obviously contraband or evidence, take it. If you have to pick it up, flip it, or move it to figure out whether it's evidence, you've started a new search. Serial-number checks are the classic trap. Note State v. Jackson (Ohio 2022): using a flashlight to see into a car isn't a search.",
+"related": [
+"402.2",
+"407.1"
+],
+"cat": "search",
+"notes": []
+},
+{
+"id": "inventory",
+"name": "South Dakota v. Opperman / Colorado v. Bertine / Florida v. Wells",
+"cite": "428 U.S. 364 (1976); 479 U.S. 367 (1987); 495 U.S. 1 (1990)",
+"year": 1976,
+"court": "scotus",
+"tags": [
+"inventory",
+"impound"
+],
+"facts": "Opperman: a car towed for parking violations was inventoried and marijuana found in the unlocked glove box. Bertine: a van impounded after a DUI arrest was inventoried, including a closed backpack. Wells: a locked suitcase in an impounded car was opened; the department had no policy on closed containers.",
+"held": "Inventory searches of lawfully impounded vehicles are reasonable when done under standardized department procedures for caretaking purposes (protecting property, protecting police from claims, protecting against danger), not as a pretext for investigation. Closed containers may be opened if policy says so; without any policy on containers, opening them is unreasonable (Wells).",
+"forUs": "Inventory is only as good as two things: a lawful reason to impound, and following the tow directive the same way every time. Don't tow to search. In Ohio, State v. Leak suppressed a gun because the car was legally parked and there was no legitimate reason to impound; State v. Toran held the policy doesn't have to be written if you can testify to it and BWC shows you following it.",
+"related": [
+"406.3",
+"402.2"
+],
+"cat": "search",
+"notes": []
+},
+{
+"id": "leak",
+"name": "State v. Leak",
+"cite": "2016-Ohio-154",
+"year": 2016,
+"court": "ohio",
+"tags": [
+"inventory",
+"impound",
+"Ohio differs"
+],
+"facts": "Columbus officers arrested Quincy Leak on a domestic-violence warrant as he sat in a legally parked car on a city street. They decided to tow the car and, during the inventory, found a handgun under the seat.",
+"held": "The impound and inventory were unreasonable because there was no legitimate community-caretaking reason to tow a legally parked car: it wasn't obstructing traffic, wasn't at risk, and the arrest didn't require removing it. The gun was suppressed, and the search couldn't be justified as incident to arrest under Gant either.",
+"forUs": "Arresting the occupant does not by itself let you tow a legally parked car. Ask: is it blocking traffic, is it a hazard, is it on private property where it'll be towed anyway, is there a licensed, sober person who can take it? If none of those, leave it locked. If you have probable cause for a vehicle search, say that instead.",
+"related": [
+"406.3",
+"402.2",
+"402.1"
+],
+"cat": "search",
+"notes": []
+},
+{
+"id": "toran",
+"name": "State v. Toran",
+"cite": "2023-Ohio-3564",
+"year": 2023,
+"court": "ohio",
+"tags": [
+"inventory",
+"policy"
+],
+"facts": "A Cincinnati officer arrested a driver after a stop revealed a suspended license and ordered the car towed. During inventory he found a gun. The defense argued the inventory was invalid because the department's inventory policy was not produced in writing at the hearing.",
+"held": "A standardized inventory policy need not be in writing or introduced as an exhibit; the state can establish it through officer testimony and body-camera footage showing the policy was followed.",
+"forUs": "Your testimony and your BWC are the evidence that you followed the tow procedure. Know 406.3 well enough to describe it on the stand, do it the same way every time, and narrate on camera ('conducting a standard inventory prior to tow').",
+"related": [
+"406.3",
+"401.26"
+],
+"cat": "search",
+"notes": []
+},
+{
+"id": "birchfield",
+"name": "Birchfield v. North Dakota / Mitchell v. Wisconsin / Missouri v. McNeely",
+"cite": "579 U.S. 438 (2016); 588 U.S. 840 (2019); 569 U.S. 141 (2013)",
+"year": 2016,
+"court": "scotus",
+"tags": [
+"OVI",
+"blood",
+"breath"
+],
+"facts": "McNeely: an officer took a non-consensual blood draw from a DWI arrestee without a warrant, arguing alcohol dissipation is always an exigency. Birchfield: three defendants were prosecuted for refusing breath or blood tests. Mitchell: an unconscious drunk driver had blood drawn without a warrant.",
+"held": "The natural dissipation of alcohol does not create a per se exigency; warrantless blood draws require a case-specific exigency or consent (McNeely). A breath test may be required incident to a lawful DUI arrest without a warrant, but a blood test may not; a state can't criminalize refusing a warrantless blood test (Birchfield). When a driver is unconscious and needs medical care, a warrantless blood draw is almost always permitted under exigency (Mitchell).",
+"forUs": "Breath test incident to arrest: no warrant needed. Blood: get a warrant unless there's a documented exigency or valid consent. Unconscious driver going to the hospital: exigency generally applies, but document why you couldn't get a warrant in time. Ohio's implied-consent law (R.C. 4511.191) handles administrative penalties for refusal; it doesn't substitute for a warrant on a forced blood draw.",
+"related": [
+"406.2",
+"406.4"
+],
+"cat": "search",
+"notes": []
+},
+{
+"id": "king2013",
+"name": "Maryland v. King",
+"cite": "569 U.S. 435",
+"year": 2013,
+"court": "scotus",
+"tags": [
+"DNA",
+"booking"
+],
+"facts": "Alonzo King was arrested for assault and, under Maryland's DNA collection law, had a cheek swab taken at booking. The DNA matched an unsolved rape.",
+"held": "Taking and analyzing a cheek swab of an arrestee's DNA as part of booking for a serious offense is, like fingerprinting and photographing, a legitimate booking procedure reasonable under the Fourth Amendment.",
+"forUs": "Ohio collects DNA at booking from adults arrested for felonies (R.C. 2901.07). It's a routine booking step, not a search you need separate cause for. Follow the collection procedure precisely; chain of custody on the swab is what matters later.",
+"related": [
+"402.1",
+"407.1"
+],
+"cat": "search",
+"notes": []
+},
+{
+"id": "wilsonknock",
+"name": "Wilson v. Arkansas / Richards v. Wisconsin / Hudson v. Michigan",
+"cite": "514 U.S. 927 (1995); 520 U.S. 385 (1997); 547 U.S. 586 (2006)",
+"year": 1995,
+"court": "scotus",
+"tags": [
+"knock and announce",
+"warrant"
+],
+"facts": "Wilson: officers executing a warrant walked into an unlocked home without announcing. Richards: officers knocked and, when the occupant saw them and slammed the door, kicked it in seconds later; Wisconsin had a blanket no-knock rule for drug warrants. Hudson: Detroit officers announced and waited only three to five seconds before entering.",
+"held": "Knock-and-announce is part of Fourth Amendment reasonableness (Wilson). There is no blanket exception for drug cases; officers may enter without announcing when they have reasonable suspicion that announcing would be dangerous, futile, or allow destruction of evidence (Richards). A knock-and-announce violation does not require suppression of the evidence, though civil liability remains (Hudson).",
+"forUs": "Knock, announce, and give a reasonable time to answer (how long depends on the size of the place and what you're looking for). Deviating requires case-specific facts about danger or destruction, approved by the supervisor running the warrant. Hudson means a bad knock won't lose the evidence, but it will show up in the lawsuit and the IA review.",
+"related": [
+"402.2",
+"403.1"
+],
+"cat": "search",
+"notes": []
+},
+{
+"id": "jackson2022",
+"name": "State v. Jackson (flashlight)",
+"cite": "2022-Ohio-4365",
+"year": 2022,
+"court": "ohio",
+"tags": [
+"plain view",
+"vehicle"
+],
+"facts": "An officer on a nighttime stop shined a flashlight into the car and saw contraband.",
+"held": "Using a flashlight to illuminate the interior of a vehicle from a lawful vantage point is not a search; what is visible with a light at night is treated the same as what's visible in daylight.",
+"forUs": "Light up the interior from where you lawfully stand. Opening the door, leaning in, or moving items is where it becomes a search.",
+"related": [
+"402.2",
+"406.1"
+],
+"cat": "search",
+"notes": []
+},
+{
+"id": "banksharvey",
+"name": "State v. Banks-Harvey",
+"cite": "2018-Ohio-217",
+"year": 2018,
+"court": "ohio",
+"tags": [
+"inventory",
+"purse",
+"Ohio differs"
+],
+"facts": "A trooper arrested a driver on a warrant, then without asking retrieved her purse from the car and inventoried it, finding drugs. There was no written policy requiring retrieval of an arrestee's belongings from a vehicle.",
+"held": "Retrieving the purse was not a valid inventory because the trooper was not following a standardized policy, and the automobile exception didn't apply because no probable cause existed when he grabbed it.",
+"forUs": "An arrestee's belongings left in the car are not automatically yours to go through. Either follow a standardized procedure that covers that step, ask the arrestee what she wants done with her property, or have probable cause. 'I always grab the purse' is not a policy unless the department has made it one.",
+"related": [
+"402.2",
+"406.3",
+"402.1"
+],
+"cat": "search",
+"notes": []
+},
+{
+"id": "gates",
+"name": "Illinois v. Gates / Maryland v. Pringle / District of Columbia v. Wesby",
+"cite": "462 U.S. 213 (1983); 540 U.S. 366 (2003); 583 U.S. 48 (2018)",
+"year": 1983,
+"court": "scotus",
+"tags": [
+"probable cause",
+"foundational"
+],
+"facts": "Gates: an anonymous letter described a couple's drug-running travel plans in detail; police corroborated the travel. Pringle: an officer found $763 in a glove box and five baggies of cocaine behind the rear armrest in a car with three men, none of whom claimed them; all three were arrested. Wesby: officers found 21 people partying in a vacant D.C. house with a makeshift strip club, who scattered and gave conflicting stories about who invited them; they were arrested for unlawful entry.",
+"held": "Probable cause is a practical, common-sense, totality-of-the-circumstances judgment about whether there is a fair probability of crime or evidence; it is not a rigid test and does not require certainty or even a preponderance (Gates). Officers may infer that all occupants of a small car are jointly involved in drugs found inside and arrest all of them (Pringle). Probable cause looks at the whole picture, and officers are not required to accept innocent explanations or rule them out (Wesby).",
+"forUs": "Probable cause is a fair probability, built from everything you know, including inferences from experience. You don't have to disprove the innocent story first. When you have multiple people and contraband in a common area, Pringle lets you arrest all of them while you sort it out; write what each one did and said. Wesby also reminds you that the arrest is judged on the facts you had, and qualified immunity protected the officers there.",
+"related": [
+"402.1"
+],
+"cat": "arrest",
+"notes": []
+},
+{
+"id": "atwater",
+"name": "Atwater v. City of Lago Vista / Virginia v. Moore",
+"cite": "532 U.S. 318 (2001); 553 U.S. 164 (2008)",
+"year": 2001,
+"court": "scotus",
+"tags": [
+"custodial arrest",
+"minor offense"
+],
+"facts": "Atwater: a Texas officer arrested a mother driving with her two children unbelted, a fine-only offense, handcuffed her, and booked her. Moore: Virginia officers arrested a driver for driving on a suspended license, a misdemeanor for which state law required a summons, not arrest, and found crack in the search incident.",
+"held": "The Fourth Amendment permits a custodial arrest for any offense committed in the officer's presence, even a fine-only offense (Atwater). An arrest supported by probable cause does not violate the Fourth Amendment even if state law prohibits arrest for that offense, and the search incident is valid federally (Moore).",
+"forUs": "Federally, any offense in your presence supports a custodial arrest. Ohio is different: under State v. Jones and State v. Brown, arresting for a minor misdemeanor without an R.C. 2935.26 exception violates the Ohio Constitution, and the evidence from the search incident is suppressed in Ohio courts. Follow Ohio law and 402.1, not Atwater.",
+"related": [
+"402.1"
+],
+"cat": "arrest",
+"notes": []
+},
+{
+"id": "jonesbrown",
+"name": "State v. Jones / State v. Brown (minor misdemeanor arrest)",
+"cite": "88 Ohio St.3d 430 (2000); 2003-Ohio-3931",
+"year": 2000,
+"court": "ohio",
+"tags": [
+"minor misdemeanor",
+"Ohio differs",
+"Toledo"
+],
+"facts": "Jones: a Cincinnati officer arrested a man for jaywalking (a minor misdemeanor), searched him incident to arrest, and found crack. Brown: Dayton officers arrested a man for jaywalking, searched him, and found crack; the state argued Atwater made the arrest fine under the Fourth Amendment.",
+"held": "A full custodial arrest for a minor misdemeanor, absent one of the exceptions in R.C. 2935.26 (refuses or cannot identify, refuses to sign the citation, needs medical care, has previously failed to appear, or the offense is one that continues), violates Article I, Section 14 of the Ohio Constitution, and evidence found in the search incident to that arrest is suppressed. Brown reaffirmed this after Atwater, expressly holding the Ohio Constitution gives more protection than the Fourth Amendment here.",
+"forUs": "The single most important Ohio-specific rule for street arrests. Minor misdemeanor (jaywalking, open container, minor-misdemeanor marijuana possession, most traffic infractions): cite and release unless a 2935.26 exception applies and you document it. If you arrest anyway and find a gun or dope, Ohio courts will throw it out. 402.1 incorporates this. Know the exceptions cold and write which one you relied on.",
+"related": [
+"402.1",
+"406.1"
+],
+"cat": "arrest",
+"notes": []
+},
+{
+"id": "devenpeck",
+"name": "Devenpeck v. Alford",
+"cite": "543 U.S. 146",
+"year": 2004,
+"court": "scotus",
+"tags": [
+"probable cause",
+"charging"
+],
+"facts": "Washington State troopers arrested a man for recording their conversation (which the trooper wrongly believed was a crime). They had probable cause for impersonating an officer but didn't cite that offense at arrest.",
+"held": "An arrest is lawful if probable cause existed for any offense, even one the officer did not name at the time and even if it is not closely related to the stated charge. The officer's subjective reason for the arrest is irrelevant.",
+"forUs": "If the facts support probable cause for some offense, the arrest holds even if you called it the wrong thing. That's a safety net, not a plan: write all the facts you observed, not just the ones for the charge you picked, so the prosecutor and the court can see the full basis. And recording you is not a crime (see Devenpeck's own facts and the First Amendment section).",
+"related": [
+"402.1"
+],
+"cat": "arrest",
+"notes": []
+},
+{
+"id": "gerstein",
+"name": "Gerstein v. Pugh / County of Riverside v. McLaughlin",
+"cite": "420 U.S. 103 (1975); 500 U.S. 44 (1991)",
+"year": 1975,
+"court": "scotus",
+"tags": [
+"probable cause hearing",
+"48 hours"
+],
+"facts": "Gerstein: Florida held arrestees for weeks on a prosecutor's information without any judicial finding of probable cause. McLaughlin: Riverside County combined probable-cause determinations with arraignments held up to 48 hours after arrest, excluding weekends and holidays.",
+"held": "A person arrested without a warrant is entitled to a prompt judicial determination of probable cause (Gerstein). 'Prompt' generally means within 48 hours of arrest, including weekends; delays within 48 hours can still be unreasonable if for improper purposes (gathering more evidence, ill will), and delays beyond 48 hours require a genuine emergency (McLaughlin).",
+"forUs": "Warrantless arrest means the paperwork gets to a judge fast. Don't hold someone on a 'investigative' basis while you build the case. Complete the probable-cause affidavit promptly and accurately; it is what keeps the arrest lawful past the street.",
+"related": [
+"402.1",
+"402.5",
+"306.1"
+],
+"cat": "arrest",
+"notes": []
+},
+{
+"id": "nieves",
+"name": "Nieves v. Bartlett",
+"cite": "587 U.S. 391",
+"year": 2019,
+"court": "scotus",
+"tags": [
+"retaliatory arrest",
+"First Amendment"
+],
+"facts": "At Alaska's Arctic Man festival, Russell Bartlett, intoxicated, loudly refused to talk to one trooper and then stepped between another trooper and a teenager the trooper was questioning. He was arrested for disorderly conduct and resisting. Bartlett claimed the arrest was retaliation for his speech.",
+"held": "Probable cause generally defeats a First Amendment retaliatory-arrest claim. Narrow exception: when officers typically exercise discretion not to arrest for that offense (jaywalking is the example) and the plaintiff can show similarly situated people who weren't engaged in protected speech were not arrested.",
+"forUs": "Probable cause protects you from most 'you only arrested me because I mouthed off' claims. The exception bites when you arrest for something you'd normally let slide, right after someone criticized you. If the only thing that changed is that they ran their mouth, don't make the arrest; or if there's a real independent reason, write it in detail.",
+"related": [
+"402.1",
+"101.3"
+],
+"cat": "arrest",
+"notes": []
+},
+{
+"id": "dowell",
+"name": "State v. Dowell",
+"cite": "2026-Ohio-4094",
+"year": 2026,
+"court": "ohio",
+"tags": [
+"obstruction",
+"mental health",
+"pink slip",
+"recent"
+],
+"facts": "A doctor signed an emergency admission form under R.C. 5122.10 after Kiersten Dowell disclosed a suicide attempt. A Harrison officer stopped her car, told her she needed to go to the hospital and was not under arrest, and she refused to get out for about five minutes. After she got out, she again refused, and because she had said she had firearms readily available, officers tried to handcuff her for safety. She clutched her phone and clothing and twisted away for five to ten minutes before being cuffed. She was charged with obstructing official business and resisting arrest; the trial court dismissed.",
+"held": "Obstructing official business under R.C. 2921.31 does not require an illegal act; a voluntary, unprivileged act that hampers or impedes an officer's lawful duties is enough. R.C. 5122.10 does not give a person being taken into custody for emergency commitment a privilege to hamper the officers. Whether her conduct was voluntary and whether the arrest was lawful were questions for trial.",
+"forUs": "When you're executing a pink slip, physical non-compliance that impedes the transport can be charged as obstruction even though the person isn't under criminal arrest. Two cautions. First, 5122.10 requires you to tell the person it is not a criminal arrest, who you are, and where they're going, and to use the least conspicuous means possible; do that on camera. Second, charging a person in mental-health crisis is a discretion call under 401.9 and 101.3, not a reflex. The case says you can, not that you should.",
+"notes": [
+"Decided October 21, 2026, 6-1, Chief Justice Kennedy writing; Justice Brunner dissented."
+],
+"related": [
+"401.9",
+"402.1",
+"101.3"
+],
+"cat": "arrest"
+},
+{
+"id": "miranda",
+"name": "Miranda v. Arizona",
+"cite": "384 U.S. 436",
+"year": 1966,
+"court": "scotus",
+"tags": [
+"foundational"
+],
+"facts": "Ernesto Miranda was arrested at home for kidnapping and rape, taken to a Phoenix station, identified in a lineup, and questioned for two hours without being told he could remain silent or have a lawyer. He signed a confession.",
+"held": "Statements from custodial interrogation are inadmissible unless the suspect was first warned of the right to remain silent, that statements can be used against him, the right to an attorney, and that one will be appointed if he can't afford one, and then knowingly and voluntarily waived those rights.",
+"forUs": "Two triggers, both required: custody (formal arrest or restraint to that degree) and interrogation (express questioning or its functional equivalent). A Terry stop or a roadside traffic stop is generally not custody (Berkemer). Volunteered statements are always admissible. Read the card, don't paraphrase, record it, and record the waiver.",
+"related": [
+"402.1",
+"405.1"
+],
+"cat": "interrogation",
+"notes": []
+},
+{
+"id": "berkemer",
+"name": "Berkemer v. McCarty",
+"cite": "468 U.S. 420",
+"year": 1984,
+"court": "scotus",
+"tags": [
+"traffic stop",
+"custody",
+"Ohio case"
+],
+"facts": "An Ohio State Highway Patrol trooper stopped Richard McCarty near Columbus for weaving, had him do field sobriety tests, and asked if he'd been using intoxicants; McCarty said he'd had two beers and smoked marijuana. He was arrested, taken to the jail, and questioned more without Miranda warnings.",
+"held": "Miranda applies to custodial interrogation for misdemeanor traffic offenses the same as felonies. But a routine roadside traffic stop is not 'custody' for Miranda, because it is brief, public, and typically involves one or two officers; roadside questioning before arrest doesn't require warnings. Once the driver is arrested, questioning requires Miranda.",
+"forUs": "Roadside questions during a normal stop ('how much have you had tonight?') don't need Miranda. Once you cuff them or tell them they're under arrest, they do. The gray zone is when a stop becomes custody-like: multiple officers, guns, cuffs, long duration, moving them to the car. If you've escalated to that, Mirandize before asking more.",
+"notes": [
+"Ohio case: the stop was on I-270 in Franklin County."
+],
+"related": [
+"406.2",
+"402.1"
+],
+"cat": "interrogation"
+},
+{
+"id": "innis",
+"name": "Rhode Island v. Innis",
+"cite": "446 U.S. 291",
+"year": 1980,
+"court": "scotus",
+"tags": [
+"interrogation"
+],
+"facts": "Thomas Innis was arrested for a shotgun murder, Mirandized, and invoked. In the car, two officers talked to each other about how terrible it would be if a child from the nearby school for disabled kids found the missing shotgun. Innis told them to turn around and showed them the gun.",
+"held": "'Interrogation' under Miranda means express questioning or any words or actions the officer should know are reasonably likely to elicit an incriminating response. Here, the brief conversation between officers did not rise to that level.",
+"forUs": "Interrogation is about what your words are likely to produce, not whether you phrased them as a question. Talking 'to your partner' in front of a suspect about the case is risky; so are 'appeals to conscience.' After invocation, the safe conversation is logistics only. Routine booking questions (name, DOB, address) are not interrogation.",
+"related": [
+"402.1"
+],
+"cat": "interrogation",
+"notes": []
+},
+{
+"id": "edwards",
+"name": "Edwards v. Arizona / Davis v. United States / Maryland v. Shatzer",
+"cite": "451 U.S. 477 (1981); 512 U.S. 452 (1994); 559 U.S. 98 (2010)",
+"year": 1981,
+"court": "scotus",
+"tags": [
+"invocation",
+"counsel"
+],
+"facts": "Edwards: a suspect asked for a lawyer; the next morning detectives came back, re-Mirandized him, and got a confession. Davis: during an NCIS interview the suspect said 'Maybe I should talk to a lawyer,' and agents continued after clarifying. Shatzer: a prisoner invoked counsel; two and a half years later a different detective re-approached him in prison and he confessed.",
+"held": "Once a suspect clearly invokes the right to counsel, police must stop and may not re-initiate interrogation unless the suspect does, or counsel is present (Edwards). The invocation must be unambiguous; an equivocal reference to a lawyer doesn't require stopping, though clarifying is good practice (Davis). The Edwards protection ends after a 14-day break in custody (Shatzer).",
+"forUs": "'I want a lawyer' means stop, period, and don't come back later to try again unless they reach out to you. 'Maybe I should get a lawyer' is ambiguous; you can keep going, but asking 'are you asking for a lawyer?' protects the statement. Flag invocations in the report so the next detective knows. Fourteen days out of custody resets the clock.",
+"related": [
+"402.1"
+],
+"cat": "interrogation",
+"notes": []
+},
+{
+"id": "thompkins",
+"name": "Berghuis v. Thompkins / Salinas v. Texas",
+"cite": "560 U.S. 370 (2010); 570 U.S. 178 (2013)",
+"year": 2010,
+"court": "scotus",
+"tags": [
+"silence",
+"waiver"
+],
+"facts": "Thompkins: a murder suspect was Mirandized, declined to sign a waiver, and stayed nearly silent for almost three hours before answering 'yes' when asked if he prayed to God for forgiveness for the shooting. Salinas: in a voluntary, non-custodial interview, a suspect answered questions but went silent when asked if ballistics would match his shotgun; the prosecutor used the silence at trial.",
+"held": "Silence alone is not an invocation of the right to remain silent; the suspect must unambiguously invoke it. A suspect who understands his rights and then answers questions has impliedly waived (Thompkins). In a non-custodial setting, a suspect who simply stops answering, without expressly invoking the privilege, can have that silence used against him (Salinas).",
+"forUs": "Sitting silent after warnings isn't an invocation; if they later talk, it's a waiver. But document that they understood the warnings. In a voluntary interview, note exactly which questions they answered and where they stopped. If they say anything like 'I'm not answering that' or 'I'm done talking,' treat it as an invocation.",
+"related": [
+"402.1"
+],
+"cat": "interrogation",
+"notes": []
+},
+{
+"id": "seibert",
+"name": "Missouri v. Seibert / Oregon v. Elstad",
+"cite": "542 U.S. 600 (2004); 470 U.S. 298 (1985)",
+"year": 2004,
+"court": "scotus",
+"tags": [
+"two-step",
+"unwarned statement"
+],
+"facts": "Elstad: officers arrested a teen at home for burglary; one remarked he thought the teen was involved, and the teen said 'Yes, I was there.' At the station he was Mirandized and gave a full written confession. Seibert: a Missouri department trained officers to deliberately question first, get a confession, then Mirandize and have the suspect repeat it.",
+"held": "A voluntary unwarned statement does not automatically taint a later, properly warned statement (Elstad). But a deliberate 'question first, warn later' technique designed to undermine Miranda renders the post-warning statement inadmissible (Seibert).",
+"forUs": "If someone blurts something out before you've warned them, you can still Mirandize and take a proper statement afterward. What you can't do is question first on purpose and then 'clean it up' with warnings. In Ohio, remember Farris: the physical evidence from an unwarned custodial statement is also out, unlike the federal rule.",
+"related": [
+"402.1"
+],
+"cat": "interrogation",
+"notes": []
+},
+{
+"id": "farris",
+"name": "State v. Farris",
+"cite": "2006-Ohio-3255",
+"year": 2006,
+"court": "ohio",
+"tags": [
+"Ohio differs",
+"physical fruits"
+],
+"facts": "A trooper stopped Blake Farris for speeding, smelled burnt marijuana, took his keys, patted him down, put him in the cruiser, and, without Miranda, asked about the marijuana. Farris admitted there was a pipe in the trunk. The trooper Mirandized him, asked again, got the same answer, and searched the trunk.",
+"held": "Farris was in custody once the trooper took his keys, patted him down, placed him in the cruiser, and told him he'd be searching the car. Under Article I, Section 10 of the Ohio Constitution, physical evidence found as a direct result of an unwarned custodial statement is inadmissible, rejecting the federal rule from United States v. Patane. The second, warned statement was also tainted because it was the same question asked immediately after the first.",
+"forUs": "Ohio goes further than the Supreme Court: if you get an unwarned custodial admission and it leads you to the gun or the drugs, Ohio suppresses the gun or the drugs too. Also note what made Farris 'custody' on a traffic stop: keys taken, frisk, placed in cruiser, told the car would be searched. If you've done those things, Mirandize before asking where the contraband is.",
+"notes": [
+"In re T.D.S. (2024-Ohio-4799) reaffirmed Farris in a juvenile case."
+],
+"related": [
+"402.1",
+"406.2",
+"402.2"
+],
+"cat": "interrogation"
+},
+{
+"id": "quarles",
+"name": "New York v. Quarles",
+"cite": "467 U.S. 649",
+"year": 1984,
+"court": "scotus",
+"tags": [
+"public safety"
+],
+"facts": "A rape victim told officers her attacker had a gun and had run into a supermarket. Officers found Benjamin Quarles inside, frisked him, found an empty holster, cuffed him, and asked 'Where's the gun?' before any warnings. He nodded toward some cartons.",
+"held": "There is a public-safety exception to Miranda: when officers ask questions reasonably prompted by a concern for public safety (a loose gun in a public place), the answers and the evidence are admissible even though the suspect was in custody and unwarned.",
+"forUs": "'Where's the gun?' right after a weapon-related arrest, before warnings, is fine when there's a real safety reason: a gun somewhere a kid or an accomplice could get it. Keep it to the safety question; once you start asking about the crime, you've left the exception. Articulate the danger in the report.",
+"related": [
+"402.1",
+"402.2"
+],
+"cat": "interrogation",
+"notes": []
+},
+{
+"id": "jdb",
+"name": "J.D.B. v. North Carolina",
+"cite": "564 U.S. 261",
+"year": 2011,
+"court": "scotus",
+"tags": [
+"juvenile",
+"custody"
+],
+"facts": "A 13-year-old special-education student was pulled from class by a uniformed school resource officer and questioned for at least 30 minutes in a closed conference room by an investigator and school officials about burglaries, without Miranda warnings or a parent. He confessed.",
+"held": "A child's age, when known to the officer or objectively apparent, must be considered in the Miranda custody analysis. A reasonable child may feel unable to leave in circumstances where an adult would not.",
+"forUs": "The 'would a reasonable person feel free to leave' question is 'would a reasonable kid this age.' Schools, closed rooms, uniforms, and no parent push toward custody. Follow 405.1 on parental notification and juvenile interviews; Ohio courts look closely at juvenile waivers (In re T.D.S. applied Farris to a juvenile).",
+"related": [
+"405.1"
+],
+"cat": "interrogation",
+"notes": []
+},
+{
+"id": "vega",
+"name": "Vega v. Tekoh",
+"cite": "597 U.S. 134",
+"year": 2022,
+"court": "scotus",
+"tags": [
+"civil liability"
+],
+"facts": "A deputy questioned a hospital worker about a sexual-assault allegation without Miranda warnings and got a written statement. The statement was used at trial; the worker was acquitted and then sued the deputy under § 1983 for the Miranda violation.",
+"held": "A Miranda violation is not itself a basis for a § 1983 civil suit; Miranda is a prophylactic rule whose remedy is suppression at trial, not damages.",
+"forUs": "Skipping Miranda won't by itself get you sued in federal court, but it will lose the statement (and in Ohio, under Farris, the evidence it led to), and coerced statements are still a due-process violation that can be sued on. Don't read this as permission to skip warnings.",
+"related": [
+"402.1"
+],
+"cat": "interrogation",
+"notes": []
+},
+{
+"id": "perkins",
+"name": "Illinois v. Perkins / Howes v. Fields / Montejo v. Louisiana",
+"cite": "496 U.S. 292 (1990); 565 U.S. 499 (2012); 556 U.S. 778 (2009)",
+"year": 1990,
+"court": "scotus",
+"tags": [
+"undercover",
+"jail",
+"Sixth Amendment"
+],
+"facts": "Perkins: an undercover officer placed in a cellblock got a murder suspect to brag about a killing. Fields: a Michigan inmate was taken to a conference room and questioned by sheriff's deputies for five to seven hours about an unrelated crime, told he could return to his cell anytime. Montejo: a defendant who had counsel appointed at arraignment was later Mirandized by detectives and agreed to go with them to find the murder weapon.",
+"held": "Miranda doesn't apply when a suspect doesn't know he's talking to police; no coercion exists (Perkins). Being in prison does not automatically mean 'custody' for Miranda; it depends on the circumstances of the questioning (Fields). A defendant who has been appointed counsel can still be approached and waive Miranda for police questioning; the old rule barring it (Michigan v. Jackson) is overruled (Montejo).",
+"forUs": "Jail interviews still need the custody analysis; tell the inmate he can end it and return to his cell, and document it. Someone with a lawyer on the case can still waive and talk to you if he hasn't invoked under Edwards, but coordinate with the prosecutor first because Sixth Amendment issues attach once charges are filed. Don't use informants to deliberately elicit statements from a charged defendant (Massiah).",
+"related": [
+"402.1",
+"306.1"
+],
+"cat": "interrogation",
+"notes": []
+},
+{
+"id": "mapp",
+"name": "Mapp v. Ohio",
+"cite": "367 U.S. 643",
+"year": 1961,
+"court": "scotus",
+"tags": [
+"foundational",
+"Ohio case",
+"exclusionary rule"
+],
+"facts": "Cleveland officers went to Dollree Mapp's house looking for a bombing suspect and gambling materials. She refused entry without a warrant. Three hours later, more officers forced the door, waved a piece of paper they claimed was a warrant (it never surfaced), handcuffed her when she grabbed it, and searched the whole house. They found 'obscene' books in a trunk and charged her with possession.",
+"held": "The exclusionary rule applies to the states: evidence obtained in violation of the Fourth Amendment is inadmissible in state criminal prosecutions.",
+"forUs": "Cleveland, 1957. This is why the suppression hearing exists. Every search-and-seizure case in this section matters because of Mapp: get it wrong and the evidence disappears, and under Wong Sun so does whatever flowed from it.",
+"related": [
+"402.2"
+],
+"cat": "evidence",
+"notes": []
+},
+{
+"id": "wongsun",
+"name": "Wong Sun v. United States / Nix v. Williams / Murray v. United States",
+"cite": "371 U.S. 471 (1963); 467 U.S. 431 (1984); 487 U.S. 533 (1988)",
+"year": 1963,
+"court": "scotus",
+"tags": [
+"fruit of the poisonous tree",
+"inevitable discovery",
+"independent source"
+],
+"facts": "Wong Sun: agents made an illegal entry and arrest, got statements leading to another suspect and to heroin. Nix: after an improper interrogation (the 'Christian burial speech'), the defendant led officers to a child's body; 200 searchers were already combing the area in a grid that would have reached it. Murray: agents entered a warehouse illegally, saw marijuana, left, and then got a warrant based only on information they had before the illegal entry.",
+"held": "Evidence derived from an illegal search or seizure is 'fruit of the poisonous tree' and is suppressed unless the connection is sufficiently attenuated (Wong Sun). Illegally obtained evidence is admissible if the state proves it would inevitably have been discovered by lawful means (Nix). Evidence is admissible if it was also obtained from a genuinely independent lawful source (Murray).",
+"forUs": "A bad stop or entry poisons what follows, including statements and later finds. The rescue doctrines (inevitable discovery, independent source, attenuation) are real but require proof: a tow that was already going to happen, a warrant already in process, an intervening event. If you realize you've made an error, stop, don't compound it, and talk to a supervisor about a lawful path before going further.",
+"related": [
+"402.2",
+"407.1"
+],
+"cat": "evidence",
+"notes": []
+},
+{
+"id": "herring",
+"name": "Herring v. United States / Davis v. United States / United States v. Leon",
+"cite": "555 U.S. 135 (2009); 564 U.S. 229 (2011); 468 U.S. 897 (1984)",
+"year": 2009,
+"court": "scotus",
+"tags": [
+"good faith"
+],
+"facts": "Leon: officers executed a facially valid search warrant that was later held to lack probable cause. Herring: an officer arrested a man on a warrant that a neighboring county's database showed active but had actually been recalled months earlier; the search incident found meth and a gun. Davis: officers did a vehicle search that was lawful under then-binding precedent, which the Supreme Court later changed in Gant.",
+"held": "The exclusionary rule doesn't apply when officers reasonably rely on a warrant later found defective (Leon), on a database error that is isolated negligence rather than systemic or reckless (Herring), or on binding appellate precedent later overruled (Davis). Exclusion is meant to deter deliberate, reckless, or grossly negligent police conduct.",
+"forUs": "Good-faith reliance on a warrant, a records system, or existing law protects the evidence when the mistake wasn't yours. It does not protect sloppy affidavits, 'I thought the warrant was still good' when you could have checked, or recurring records problems. Confirm warrants through dispatch before acting on them and note the confirmation time. Ohio courts generally follow the good-faith exception but apply it to Ohio-specific rules too.",
+"related": [
+"402.1",
+"402.2"
+],
+"cat": "evidence",
+"notes": []
+},
+{
+"id": "brady",
+"name": "Brady v. Maryland / Giglio v. United States",
+"cite": "373 U.S. 83 (1963); 405 U.S. 150 (1972)",
+"year": 1963,
+"court": "scotus",
+"tags": [
+"disclosure",
+"credibility"
+],
+"facts": "Brady: prosecutors withheld a co-defendant's confession that he, not Brady, did the actual killing. Giglio: prosecutors failed to disclose a promise of leniency to the key witness.",
+"held": "Due process requires the prosecution to disclose evidence favorable to the accused that is material to guilt or punishment (Brady), including evidence that impeaches the credibility of government witnesses (Giglio). The duty covers evidence known to police, not just the prosecutor.",
+"forUs": "Anything that helps the defense or hurts a witness's credibility has to get to the prosecutor, including your own sustained findings for dishonesty, inconsistent witness statements, and things that didn't make it into the report. 103.15 is the department's directive on this. A 'Brady/Giglio letter' can end a career because you can no longer testify; the fastest way to get one is a dishonesty finding.",
+"related": [
+"103.15",
+"103.1",
+"403.1"
+],
+"cat": "evidence",
+"notes": []
+},
+{
+"id": "biggers",
+"name": "Neil v. Biggers / Manson v. Brathwaite / Perry v. New Hampshire",
+"cite": "409 U.S. 188 (1972); 432 U.S. 98 (1977); 565 U.S. 228 (2012)",
+"year": 1972,
+"court": "scotus",
+"tags": [
+"identification",
+"show-up"
+],
+"facts": "Biggers: a rape victim identified the defendant at a station-house show-up seven months after the attack. Brathwaite: an undercover officer identified a drug seller from a single photo left on his desk. Perry: a witness spontaneously identified a man standing next to a police officer in a parking lot; no police-arranged procedure.",
+"held": "An unnecessarily suggestive identification procedure violates due process only if it creates a substantial likelihood of misidentification, judged by the witness's opportunity to view, degree of attention, accuracy of prior description, certainty, and time elapsed (Biggers/Brathwaite). Due-process screening applies only when police arranged the suggestive circumstances (Perry).",
+"forUs": "One-on-one show-ups (402.3) are inherently suggestive and are tolerated because they're prompt. Keep them close in time, don't tell the witness you caught the guy, don't show the suspect in cuffs or in the back of a car if you can avoid it, bring the witness to the suspect, and get the witness's description before the show-up. Document certainty in the witness's own words. For photo arrays and lineups, Ohio statute controls (next entry).",
+"related": [
+"402.3"
+],
+"cat": "evidence",
+"notes": []
+},
+{
+"id": "orc2933",
+"name": "R.C. 2933.83 (Ohio lineup and photo-array statute)",
+"cite": "R.C. 2933.83 (eff. 2010)",
+"year": 2010,
+"court": "ohio",
+"tags": [
+"identification",
+"statute"
+],
+"facts": "Ohio's legislative response to wrongful-conviction research. It requires every law-enforcement agency that conducts live lineups or photo arrays to adopt written procedures.",
+"held": "Required minimums: a blind or blinded administrator (someone who doesn't know who the suspect is, or a folder-shuffle method); the witness told that the suspect may or may not be present and that the investigation will continue regardless; fillers that match the description; a written record of the witness's own words about confidence and the result; and preservation of the array. Noncompliance is admissible to challenge the ID and the jury is instructed it may consider it, but it doesn't automatically suppress.",
+"forUs": "Photo arrays are not something to throw together in the car. Use the department's procedure, a blind administrator or the folder method, the mandatory instruction, and record the witness's confidence statement verbatim. One-on-one show-ups aren't covered by the statute but 402.3 governs them. Failing the statute hands the defense a jury instruction that your ID is unreliable.",
+"related": [
+"402.3"
+],
+"cat": "evidence",
+"notes": []
+},
+{
+"id": "trombetta",
+"name": "Arizona v. Youngblood / California v. Trombetta",
+"cite": "488 U.S. 51 (1988); 467 U.S. 479 (1984)",
+"year": 1988,
+"court": "scotus",
+"tags": [
+"evidence preservation"
+],
+"facts": "Youngblood: police failed to refrigerate a sexual-assault victim's clothing, and the semen samples degraded before they could be tested. Trombetta: officers did not preserve breath samples from Intoxilyzer tests.",
+"held": "Failure to preserve potentially useful evidence violates due process only if the defendant shows bad faith on the part of police (Youngblood). There is no duty to preserve evidence whose exculpatory value was not apparent and for which comparable evidence remains available (Trombetta).",
+"forUs": "Negligent loss of evidence usually won't dismiss the case, but it will hurt it, and bad faith (destroying something you knew could help the defense) will. Follow 407.1 on collection and storage, and if something is lost or degraded, document it immediately and honestly. BWC that 'wasn't activated' is treated with growing suspicion by Ohio courts and juries.",
+"related": [
+"407.1",
+"401.26",
+"403.1"
+],
+"cat": "evidence",
+"notes": []
+},
+{
+"id": "crawford",
+"name": "Crawford v. Washington / Davis v. Washington / Hammon v. Indiana",
+"cite": "541 U.S. 36 (2004); 547 U.S. 813 (2006)",
+"year": 2004,
+"court": "scotus",
+"tags": [
+"confrontation",
+"hearsay",
+"911"
+],
+"facts": "Crawford: a wife's recorded statement to police describing a stabbing was played at trial when she didn't testify. Davis: a 911 caller described an ongoing assault by her ex-boyfriend as it happened; she didn't testify. Hammon: officers responded to a domestic call, found things calm, separated the couple, and had the wife describe what happened and sign an affidavit; she didn't testify.",
+"held": "Testimonial out-of-court statements can't be used at trial unless the witness testifies or the defendant had a prior chance to cross-examine (Crawford). Statements made to resolve an ongoing emergency (the 911 call in Davis) are non-testimonial and admissible; statements describing past events once the scene is secure (Hammon) are testimonial and are not admissible without the witness.",
+"forUs": "This is why DV cases die when the victim won't come to court. What you can save: the 911 recording, excited utterances made while the emergency is still live, injuries you photograph, the scene, the suspect's own statements, and what children or neighbors said in the moment. Once things are calm and you're doing the 'tell me what happened' interview, that statement needs her in court. Get the BWC rolling on arrival and capture the spontaneous stuff. Michigan v. Bryant (2011) extends 'ongoing emergency' to a shooting victim describing the shooter while he's still at large.",
+"related": [
+"401.5",
+"401.26"
+],
+"cat": "dv",
+"notes": []
+},
+{
+"id": "clark",
+"name": "Ohio v. Clark",
+"cite": "576 U.S. 237",
+"year": 2015,
+"court": "scotus",
+"tags": [
+"confrontation",
+"child abuse",
+"Ohio case"
+],
+"facts": "A Cleveland preschool teacher noticed marks on a three-year-old and asked who did it; the child named 'Dee,' his mother's boyfriend. The teachers reported it. At trial the child was too young to testify, and the statements came in through the teachers.",
+"held": "Statements by a very young child to a teacher about abuse, made primarily to address an ongoing concern for the child's safety and not to create evidence for prosecution, are non-testimonial and admissible even if the child doesn't testify. Mandatory-reporter status doesn't convert teachers into police agents.",
+"forUs": "A child's spontaneous disclosure to a teacher, nurse, or parent about who hurt him is usable. Your own interview of a child is more likely to be testimonial; keep patrol questions to safety and immediate medical needs and leave the forensic interview to the trained team (401.35 and LCCS). Document who the child told first and exactly what was said.",
+"related": [
+"401.35",
+"405.1"
+],
+"cat": "dv",
+"notes": []
+},
+{
+"id": "giles",
+"name": "Giles v. California",
+"cite": "554 U.S. 353",
+"year": 2008,
+"court": "scotus",
+"tags": [
+"confrontation",
+"forfeiture"
+],
+"facts": "Dwayne Giles shot and killed his ex-girlfriend. Weeks earlier she had told police he had assaulted and threatened to kill her. Prosecutors used those statements at the murder trial under 'forfeiture by wrongdoing.'",
+"held": "A defendant forfeits his confrontation right only if he engaged in conduct designed to prevent the witness from testifying. Killing the witness isn't enough by itself unless the purpose was to keep her from testifying. But in DV cases, evidence of prior abuse and isolation intended to keep the victim from going to authorities can show that purpose.",
+"forUs": "Documenting intimidation matters. If a DV suspect threatens the victim about calling police or going to court, write it down in the victim's words; that is what later lets her prior statements in if he silences her. Take 'if you call the cops I'll kill you' seriously as both a crime and future evidence.",
+"related": [
+"401.5"
+],
+"cat": "dv",
+"notes": []
+},
+{
+"id": "castlerock",
+"name": "Town of Castle Rock v. Gonzales / DeShaney v. Winnebago County",
+"cite": "545 U.S. 748 (2005); 489 U.S. 189 (1989)",
+"year": 2005,
+"court": "scotus",
+"tags": [
+"protection order",
+"failure to protect",
+"liability"
+],
+"facts": "Castle Rock: Jessica Gonzales had a restraining order against her estranged husband. He took their three daughters. Over about eight hours she called and visited the police department repeatedly; officers told her to wait. He showed up at the station, opened fire, was killed, and the girls were found dead in his truck. DeShaney: social services returned a boy to a father they had repeatedly been warned was abusing him; he was beaten into permanent brain damage.",
+"held": "There is generally no constitutional right to police protection from private violence (DeShaney). A protection order, even one with 'shall arrest' language, does not create a property interest enforceable under the Due Process Clause, so failure to enforce it is not a federal constitutional violation (Castle Rock).",
+"forUs": "Federal civil liability for failing to act is limited, but that is not the standard you work to. Ohio law (R.C. 2935.03(B)(3)) makes DV and protection-order violations preferred-arrest offenses and requires you to document why you didn't arrest, and 401.5 is built on that. State tort claims and discipline are the real exposure. The lesson from Castle Rock is what not to do: eight hours of 'call back later.'",
+"related": [
+"401.5",
+"401.18"
+],
+"cat": "dv",
+"notes": []
+},
+{
+"id": "statecreated",
+"name": "Kallstrom v. City of Columbus (state-created danger)",
+"cite": "136 F.3d 1055 (6th Cir.)",
+"year": 1998,
+"court": "6th",
+"tags": [
+"state-created danger",
+"liability"
+],
+"facts": "Columbus released undercover officers' personnel files, including home addresses and family information, to defense counsel for a violent gang; the officers sued.",
+"held": "The Sixth Circuit recognizes a 'state-created danger' exception to DeShaney: officials can be liable when their affirmative act creates or increases a special danger to a specific person, with deliberate indifference. The affirmative act must be directed at a specific victim, not the public at large.",
+"forUs": "You generally can't be sued federally for not preventing harm, but you can be for creating it: leaving a drunk at the roadside in a dangerous spot after taking his keys, telling the abuser where the victim went, abandoning a passenger after arresting the driver in a bad area at night. Think about what your affirmative actions do to the people left behind on scene.",
+"related": [
+"401.5",
+"406.2",
+"101.3"
+],
+"cat": "dv",
+"notes": []
+},
+{
+"id": "gault",
+"name": "In re Gault",
+"cite": "387 U.S. 1",
+"year": 1967,
+"court": "scotus",
+"tags": [
+"juvenile",
+"due process"
+],
+"facts": "Fifteen-year-old Gerald Gault was taken into custody for a lewd phone call while his parents were at work; they weren't notified. He was committed to a state school until 21 for an offense that carried a $50 fine for an adult, after hearings with no counsel, no sworn witnesses, and no record.",
+"held": "Juveniles facing delinquency proceedings that may result in confinement are entitled to notice of charges, counsel, confrontation and cross-examination of witnesses, and the privilege against self-incrimination.",
+"forUs": "Juveniles have the same core rights as adults plus extra protections. Ohio adds notification requirements (R.C. 2151.311) and 405.1 lays out parental contact, detention limits, and interview rules. Treat a juvenile interview as the most scrutinized statement you'll take.",
+"related": [
+"405.1"
+],
+"cat": "special",
+"notes": []
+},
+{
+"id": "tlo",
+"name": "New Jersey v. T.L.O. / Safford Unified School District v. Redding",
+"cite": "469 U.S. 325 (1985); 557 U.S. 364 (2009)",
+"year": 1985,
+"court": "scotus",
+"tags": [
+"school search",
+"juvenile"
+],
+"facts": "T.L.O.: a vice principal searched a 14-year-old's purse after she was caught smoking, found cigarettes, rolling papers, then marijuana and dealing notes. Redding: school officials strip-searched a 13-year-old girl to her underwear looking for prescription-strength ibuprofen based on another student's tip.",
+"held": "School officials need only reasonable suspicion, not probable cause or a warrant, to search students, and the search must be reasonable in scope given the student's age and the nature of the infraction (T.L.O.). A strip search for non-dangerous pills on a thin tip is unreasonable (Redding).",
+"forUs": "The relaxed school standard belongs to school officials. When a police officer (including an SRO) directs or conducts the search, courts increasingly apply the ordinary Fourth Amendment standards, and a search done 'at police request' can lose the T.L.O. protection. Don't use school staff as a workaround. Strip searches of juveniles follow 402.4 and need a very high bar.",
+"related": [
+"405.1",
+"402.4",
+"402.2"
+],
+"cat": "special",
+"notes": []
+},
+{
+"id": "juvmiranda",
+"name": "Juvenile interrogation: J.D.B. and In re T.D.S.",
+"cite": "564 U.S. 261 (2011); 2024-Ohio-4799",
+"year": 2011,
+"court": "ohio",
+"tags": [
+"juvenile",
+"Miranda",
+"Ohio differs"
+],
+"facts": "J.D.B.: a 13-year-old questioned at school without a parent or warnings (see Miranda section). T.D.S.: an Ohio juvenile made unwarned statements in custody that led police to physical evidence.",
+"held": "Age is part of the custody analysis (J.D.B.). Ohio's Farris rule, excluding physical evidence derived from an unwarned custodial statement under the Ohio Constitution, applies fully to juveniles (T.D.S.).",
+"forUs": "With kids, custody is found more readily and the fallout from skipping warnings is bigger in Ohio. Contact the parent per 405.1, warn before any custodial questioning, use plain language and confirm understanding, and record everything.",
+"related": [
+"405.1",
+"402.1"
+],
+"cat": "special",
+"notes": []
+},
+{
+"id": "ada",
+"name": "Mental illness and the ADA: Sheehan and Sixth Circuit practice",
+"cite": "City & County of San Francisco v. Sheehan, 575 U.S. 600 (2015)",
+"year": 2015,
+"court": "scotus",
+"tags": [
+"mental health",
+"ADA",
+"deadly force"
+],
+"facts": "Teresa Sheehan, in a group home, threatened a social worker with a knife during a psychiatric episode. Two officers entered her room, retreated when she came at them with the knife, then re-entered almost immediately rather than waiting for backup, pepper-sprayed her, and shot her when she kept coming.",
+"held": "The officers were entitled to qualified immunity on the Fourth Amendment claim: no clearly established law required them to wait or use different tactics when confronting an armed, dangerous person. The Court dismissed the ADA question without deciding whether the ADA requires accommodations during arrests.",
+"forUs": "The Court didn't say the second entry was good tactics, only that it wasn't clearly unlawful. Time, distance, cover, and crisis-intervention skills are what 401.9 and your CIT training expect, and Champion v. Outlook Nashville (6th Cir.) says diminished capacity reduces the force a court will accept. Whether the ADA applies to on-scene arrests remains unsettled; act as if it does by making reasonable accommodations when safe.",
+"related": [
+"401.9",
+"103.2"
+],
+"cat": "special",
+"notes": []
+},
+{
+"id": "pinkslip",
+"name": "Emergency commitment: R.C. 5122.10 and State v. Dowell",
+"cite": "R.C. 5122.10; 2026-Ohio-4094",
+"year": 2026,
+"court": "ohio",
+"tags": [
+"mental health",
+"pink slip",
+"recent"
+],
+"facts": "R.C. 5122.10 lets an officer take a person into custody for emergency hospitalization when the officer has reason to believe the person is mentally ill and presents a substantial risk of harm to self or others. Dowell (see Arrests) involved a woman who physically resisted being taken in on a doctor's emergency form.",
+"held": "The statute requires every reasonable and appropriate effort to take the person into custody in the least conspicuous manner, telling the person it's not a criminal arrest, who you are, and where they're going. Dowell holds that resisting that process can be charged as obstruction because the statute creates no privilege to impede officers.",
+"forUs": "Narrate the required statements on BWC, use the least conspicuous means practicable, and get medical and CIT resources involved early. The authority to charge obstruction exists, but 401.9 and your discretion under 101.3 govern whether you should. A crisis call that ends in criminal charges will be reviewed hard.",
+"related": [
+"401.9",
+"101.3"
+],
+"cat": "special",
+"notes": []
+},
+{
+"id": "hill",
+"name": "City of Houston v. Hill / Lewis v. City of New Orleans / Cohen v. California",
+"cite": "482 U.S. 451 (1987); 415 U.S. 130 (1974); 403 U.S. 15 (1971)",
+"year": 1987,
+"court": "scotus",
+"tags": [
+"verbal abuse",
+"disorderly"
+],
+"facts": "Hill: a man shouted at officers to leave his friend alone and 'pick on somebody your own size'; he was arrested under an ordinance banning interrupting an officer. Lewis: a woman called an officer a 'G-D M-F police' and was charged under an ordinance against cursing at police. Cohen: a man wore a 'F--- the Draft' jacket in a courthouse.",
+"held": "Speech critical of police, including profane and insulting speech, is protected; ordinances that criminalize interrupting or verbally challenging officers are unconstitutional. The First Amendment protects a significant amount of verbal criticism and challenge directed at police officers, and officers are expected to show more restraint than the average citizen (Hill). Only 'fighting words' likely to provoke immediate violence fall outside protection, and that category is very narrow when the target is a trained officer.",
+"forUs": "Getting cussed at is part of the job and it is not disorderly conduct, obstruction, or anything else by itself. Ohio courts read R.C. 2917.11 the same way: words alone, directed at police, almost never qualify. Arrest for conduct (physical interference, true threats, refusing lawful orders to move back), not for words. An arrest for mouthing off is a retaliation claim waiting to happen (Nieves).",
+"related": [
+"402.1",
+"101.3",
+"103.1"
+],
+"cat": "speech",
+"notes": []
+},
+{
+"id": "recording",
+"name": "Right to record police: Glik, Turner, Fields, and the Sixth Circuit",
+"cite": "Glik v. Cunniffe, 655 F.3d 78 (1st Cir. 2011); Turner v. Driver, 848 F.3d 678 (5th Cir. 2017); Fields v. Philadelphia, 862 F.3d 353 (3d Cir. 2017)",
+"year": 2011,
+"court": "6th",
+"tags": [
+"recording",
+"First Amendment"
+],
+"facts": "Glik: a Boston man filmed officers arresting someone on the Common and was arrested for wiretapping. Turner: a Texas man filming a police station from a public sidewalk was handcuffed and detained. Fields: Philadelphia officers detained and retaliated against bystanders filming police activity.",
+"held": "The First, Third, Fifth, Seventh, Ninth, Tenth, and Eleventh Circuits have held that the public has a First Amendment right to record police performing their duties in public, subject to reasonable time, place, and manner restrictions. The Sixth Circuit (which covers Ohio) has not squarely decided it and has said the right was not clearly established for qualified-immunity purposes.",
+"forUs": "Assume filming you is protected. Ohio is a one-party-consent state, so recording you in public isn't wiretapping, and the department's BWC directive assumes you're being recorded anyway. You can tell someone to step back to a reasonable distance for safety or to stop physically interfering; you cannot order them to stop recording, seize the phone, or delete footage. Seizing a phone requires a warrant or exigency and a reasonable belief it holds evidence of a crime. The Sixth Circuit's immunity position protects you civilly; it won't protect you from policy violations or from the video going viral.",
+"related": [
+"401.26",
+"103.1",
+"402.2"
+],
+"cat": "speech",
+"notes": []
+},
+{
+"id": "obstruction",
+"name": "Obstruction and 'failure to comply' in Ohio",
+"cite": "State v. Wellman, 2007-Ohio-2953 (2d Dist.); State v. Lazzaro, 76 Ohio St.3d 261 (1996); State v. Dowell, 2026-Ohio-4094",
+"year": 1996,
+"court": "ohio",
+"tags": [
+"obstruction",
+"statute"
+],
+"facts": "A line of Ohio cases defining obstructing official business (R.C. 2921.31). Lazzaro: giving a false statement to police can be obstruction when it actually hampers the investigation. Wellman and others: merely refusing to answer questions, arguing, or filming is not an 'act' that obstructs. Dowell: physically resisting a mental-health transport can be.",
+"held": "Obstruction requires an affirmative act (not a mere refusal to cooperate or speak) that actually hampers or impedes an officer's lawful duty, done with purpose to obstruct. Lying can count; silence and criticism don't. Dowell confirms the act doesn't have to be independently illegal.",
+"forUs": "'He wouldn't answer my questions' is not obstruction. 'He gave a false name' can be. 'He stepped between me and the suspect' is. Write the specific act and specifically how it hampered you (delayed the arrest by X, forced you to call another unit, let the suspect flee). Resisting arrest (R.C. 2921.33) separately requires that the underlying arrest was lawful.",
+"related": [
+"402.1",
+"401.13"
+],
+"cat": "speech",
+"notes": []
+},
+{
+"id": "protest",
+"name": "Protests and crowd control: time, place, manner",
+"cite": "Ward v. Rock Against Racism, 491 U.S. 781 (1989); Zorn v. Linton, 608 U.S. ___ (2026)",
+"year": 1989,
+"court": "scotus",
+"tags": [
+"protest",
+"First Amendment"
+],
+"facts": "Ward: New York City required performers in Central Park to use city sound equipment and technicians to limit volume. Zorn: a sergeant used a wristlock on a protester after a warning.",
+"held": "Government may impose content-neutral restrictions on the time, place, and manner of expression in public forums if they are narrowly tailored to a significant interest and leave ample alternative channels (Ward). Low-level force after a warning on a non-compliant protester did not violate clearly established law (Zorn).",
+"forUs": "Dispersal orders and movement restrictions must be content-neutral and based on actual safety or traffic needs, not on what the crowd is saying. Give clear, audible orders, time to comply, and a route out, on camera. Arrests should be for identified conduct by identified individuals. 401.7 (labor disputes) and 409.2 (special events) have the department's procedures.",
+"related": [
+"401.7",
+"409.2",
+"103.2"
+],
+"cat": "speech",
+"notes": []
+},
+{
+"id": "monell",
+"name": "Monell v. Department of Social Services / City of Canton v. Harris",
+"cite": "436 U.S. 658 (1978); 489 U.S. 378 (1989)",
+"year": 1978,
+"court": "scotus",
+"tags": [
+"municipal liability",
+"training"
+],
+"facts": "Monell: NYC forced pregnant employees to take unpaid leave under official policy. Canton: a woman arrested in Canton, Ohio, slumped to the floor repeatedly at the station and got no medical attention; the city had given shift commanders no training on when to call for medical help.",
+"held": "Cities are liable under § 1983 only for their own policies or customs, not simply because they employ the officer (Monell). Failure to train can be a 'policy' when the need for training is so obvious, and the inadequacy so likely to result in constitutional violations, that the city was deliberately indifferent (Canton).",
+"forUs": "This is why the manual exists and why training records are kept. The city's defense in a lawsuit is 'we had a policy and trained him.' If you go outside the policy, you're on your own; if you follow it and it turns out to be bad policy, the city owns that. Canton (an Ohio case) is also the origin of 'if someone in custody looks like they need medical help, get it,' which 402.5 and 306.1 turn into rules.",
+"related": [
+"402.5",
+"306.1",
+"204.3"
+],
+"cat": "liability",
+"notes": []
+},
+{
+"id": "qi",
+"name": "Qualified immunity: Harlow, Pearson, Hope, and Taylor",
+"cite": "Harlow v. Fitzgerald, 457 U.S. 800 (1982); Pearson v. Callahan, 555 U.S. 223 (2009); Hope v. Pelzer, 536 U.S. 730 (2002); Taylor v. Riojas, 592 U.S. 7 (2020)",
+"year": 1982,
+"court": "scotus",
+"tags": [
+"qualified immunity"
+],
+"facts": "The framework cases. Harlow created the modern objective test. Pearson let courts skip to the 'clearly established' question. Hope (a prisoner handcuffed to a hitching post for seven hours in the sun) and Taylor (an inmate kept in cells covered in feces and sewage for six days) held that some conduct is so obviously unconstitutional that no prior case with matching facts is needed.",
+"held": "Officers are shielded from damages unless their conduct violated a constitutional right that was clearly established at the time, meaning existing precedent put the question beyond debate for a reasonable officer. Courts may decide the 'clearly established' prong first. Obvious violations don't require a case on point.",
+"forUs": "Qualified immunity is a defense to personal money damages in federal civil suits. It does not stop criminal prosecution, discipline, decertification, the city settling, or your name in the paper. The Sixth Circuit has a deep body of excessive-force and search cases, so 'no case on point' is harder to claim here than in some circuits. The best immunity is following policy and law.",
+"related": [
+"103.2",
+"103.1",
+"104.3"
+],
+"cat": "liability",
+"notes": []
+},
+{
+"id": "garrity",
+"name": "Garrity v. New Jersey / Gardner v. Broderick",
+"cite": "385 U.S. 493 (1967); 392 U.S. 273 (1968)",
+"year": 1967,
+"court": "scotus",
+"tags": [
+"internal investigation",
+"officer rights"
+],
+"facts": "Garrity: New Jersey officers investigated for ticket-fixing were told they could refuse to answer but would be fired if they did; their answers were used to convict them. Gardner: an NYPD officer was fired for refusing to waive immunity before a grand jury.",
+"held": "Statements compelled under threat of job loss cannot be used against the officer in a criminal prosecution (Garrity). An officer cannot be fired for refusing to waive the privilege against self-incrimination, but can be required to answer questions specifically, directly, and narrowly related to his duties if given immunity from criminal use (Gardner).",
+"forUs": "In an administrative interview under 103.6, when you're ordered to answer, your answers are protected from criminal use, but you must answer truthfully and you can still be disciplined based on them. Lying in a Garrity interview is both a fireable offense and a Brady/Giglio problem. A criminal investigator can't use Garrity statements, which is why the two investigations are kept separate. Know your FOP contract rights on notice and representation.",
+"related": [
+"103.6",
+"103.1",
+"103.15"
+],
+"cat": "liability",
+"notes": []
+},
+{
+"id": "r2744",
+"name": "Ohio political-subdivision immunity: R.C. Chapter 2744 and Argabrite",
+"cite": "Argabrite v. Neer, 2016-Ohio-8374",
+"year": 2016,
+"court": "ohio",
+"tags": [
+"state law",
+"pursuit",
+"immunity"
+],
+"facts": "A Montgomery County deputy pursued a burglary suspect who crashed head-on into Pamela Argabrite's car, badly injuring her. She sued the officers under state law.",
+"held": "Under R.C. 2744.03(A)(6), individual officers are immune from state-law tort liability unless they acted with malicious purpose, in bad faith, or in a wanton or reckless manner. The Ohio Supreme Court rejected a 'no-proximate-cause' rule for pursuits and held the wanton-or-reckless standard applies; on these facts the officers were not reckless.",
+"forUs": "In state court, the question for you personally is whether your conduct was 'wanton or reckless,' a high bar but one that a flagrant pursuit-policy violation can meet. The city separately faces liability for negligent emergency-vehicle operation in some circumstances (R.C. 2744.02(B)(1)). Pursuit policy (401.1) and emergency driving (303.1) exist as much to keep you inside 2744 immunity as to satisfy the Constitution.",
+"related": [
+"401.1",
+"303.1",
+"104.3"
+],
+"cat": "liability",
+"notes": []
+},
+{
+"id": "deliberate",
+"name": "Medical needs in custody: Estelle, Farmer, and the Sixth Circuit's Brawner standard",
+"cite": "Estelle v. Gamble, 429 U.S. 97 (1976); Farmer v. Brennan, 511 U.S. 825 (1994); Brawner v. Scott County, 14 F.4th 585 (6th Cir. 2021)",
+"year": 1976,
+"court": "6th",
+"tags": [
+"medical care",
+"custody"
+],
+"facts": "Estelle and Farmer established the deliberate-indifference standard for convicted prisoners. Brawner: a pretrial detainee in Tennessee had seizures after the jail stopped her prescribed medication; the Sixth Circuit addressed the standard for detainees after Kingsley.",
+"held": "Deliberate indifference to serious medical needs violates the Constitution. For pretrial detainees in the Sixth Circuit, the test is modified-objective: the officer acted deliberately (not accidentally) and recklessly in the face of an unjustifiably high risk of harm that was either known or so obvious it should have been known.",
+"forUs": "Someone in your custody who is injured, overdosing, having a seizure, saying they can't breathe, or who swallowed something gets medical care now, not after booking. Naloxone (401.28), trauma kits (401.30), and the detainee directives (402.5, 306.1) are the department's answer to this line of cases. 'I thought he was faking' is the sentence that loses.",
+"related": [
+"402.5",
+"306.1",
+"401.28",
+"401.30"
+],
+"cat": "liability",
+"notes": []
+}
+],
+"courts": {
+"scotus": "U.S. Supreme Court",
+"6th": "Sixth Circuit",
+"ohio": "Ohio"
+},
+"disclaimer": "Case summaries are editorial training aids written in plain language, not legal advice and not department policy. Holdings are simplified; facts are condensed. Verify with the full opinion, the prosecutor, or the Training Section before relying on anything here in a report or on the stand."
+}
