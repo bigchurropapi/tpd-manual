@@ -1,0 +1,10 @@
+{
+  "name": "TPD Manual — Field Reference",
+  "short_name": "TPD Manual",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#101828",
+  "theme_color": "#1f3b63",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
